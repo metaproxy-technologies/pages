@@ -1,0 +1,10 @@
+title: Metaproxy technologies
+# theme: minima
+remote_theme: pages-themes/slate@v0.2.0
+plugins:
+- jekyll-remote-theme
+author: Tomohiko Araki
+description: Blog of Metaproxy technologies.
+twitter_username: rtree
+github_username: metaproxyco
+show_excerpts: true
