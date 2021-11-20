@@ -1,8 +1,11 @@
 title: Metaproxy technologies
-theme: minima
+#theme: minima
 # remote_theme: pages-themes/slate@v0.2.0
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 plugins:
 - jekyll-remote-theme
+- jekyll-include-cache
+
 author: Tomohiko Araki
 description: Blog of Metaproxy technologies.
 twitter_username: rtree
