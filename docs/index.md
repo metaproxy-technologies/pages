@@ -1,6 +1,12 @@
 ---
-title: "Blog of Metaproxy technologies"
+title: "test blog"
 ---
 
-初期更新
+#test contents
+##abbbb
 
+- abc
+- def
+- 
+
+  ...
