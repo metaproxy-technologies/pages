@@ -1,12 +1,4 @@
 ---
-title: "test blog"
+layout: home
+author_profile: true
 ---
-
-#test contents
-##abbbb
-
-- abc
-- def
-- 
-
-  ...
