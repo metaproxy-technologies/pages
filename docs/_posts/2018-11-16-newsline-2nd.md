@@ -5,7 +5,7 @@ tags: LED Adafruit RaspberryPi
 ---
 
 だんだんラジオ体操とは程遠くなってきたが。。。その後のUpdateをさせてください。
-[前回の記事]({% post_url 2017-10-25-newsline %}/2017/10/25/newsline/)
+[前回の記事]({% post_url 2017-10-25-newsline %})
 
 
 ## Adafruit LED MatrixはHATを使うと（多分）ずっと楽
