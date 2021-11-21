@@ -97,7 +97,7 @@ author:
   name             : "Tomohiko Araki"
   avatar           : bio.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "システム屋です"
-  location         : ""
+  location         : 
   email            :
   links:
     - label: "Twitter"
