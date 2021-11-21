@@ -22,7 +22,7 @@ tags: RaspberryPi
 ## NG①：　省電力モードなるものをOff
 - 挙動に何の変化も見られず
 - コマンドは
-```
+```shell
 sudo iwconfig wlan0 power off
 ```
 
@@ -33,7 +33,7 @@ sudo iwconfig wlan0 power off
 -- [ここの議論で紹介されているもの；Persistent/reconnecting wifi](https://www.raspberrypi.org/forums/viewtopic.php?t=54001)
 
 ** sample script **
-```
+```shell
 echo "Performing Network check for $wlan"
 /bin/ping -c 2 -I $wlan $pingip > /dev/null 2> /dev/null
 if [ $? -ge 1 ] ; then
@@ -50,7 +50,7 @@ fi
 - 改善あり
 - 外->内の通信がNGということはARPに応答してくれない虞がある。なので以下のように切って見ると通信がOKとなった
     - これをssh元のPC/macにおいて実施する
-```
+```shell
 sudo arp -s RaspiのIPアドレス RaspiのMACアドレス
 ```
     - ただ、こんなやり方する位ならIP固定とか、DHCPが強制的に割り当てた方がマシ
@@ -59,12 +59,13 @@ sudo arp -s RaspiのIPアドレス RaspiのMACアドレス
 　これがうまくいく方法にみえていたがやっぱり再発した気配がする。。。
 - macでarpを打つとやっぱりarp応答がもらえていない気配。
     - incomplete の部分から
-            hostname:~ loginid$ arp -a
-            xxx.xxx (192.168.1.1) at 10:4b:46:4f:f1:1d on en0 ifscope [ethernet]
-            ? (192.168.1.22) at (incomplete) on en0 ifscope [ethernet]
+    ```shell
+hostname:~ loginid$ arp -a xxx.xxx (192.168.1.1) at 10:4b:46:4f:f1:1d on en0 ifscope [ethernet]
+? (192.168.1.22) at (incomplete) on en0 ifscope [ethernet]
+    ```
 
 - 私の環境では、以下の方法ではダメであった
-```
+```shell
 sudo vi /etc/modprobe.d/8192cu.conf
 #viの画面で以下を入力
 options 8192cu rtw_power_mgnt=0 rtw_enusbss=1 rtw_ips_mode=1
@@ -75,7 +76,7 @@ sudo shutdown -r now
         - > RaspberryPi 3 無線LANが寸断するのは /etc/modprobe.d/8192cu.conf に「options 8192cu rtw_power_mgnt=0 rtw_enusbss=1 rtw_ips_mode=1」を書いて解決
     - [Adafruitの記事中の記載](https://learn.adafruit.com/pi-wifi-radio/raspberry-pi-setup-1-of-3)
         - > if using a WiFi adapter based on the popular Realtek 8192CU chipset, disabling WiFi power management seems to help with reliability:
-```
+```shell
 echo "options 8192cu rtw_power_mgnt=0 rtw_enusbss=0" | sudo tee --append /etc/modprobe.d/8192cu.conf
 ```
 
@@ -84,7 +85,7 @@ echo "options 8192cu rtw_power_mgnt=0 rtw_enusbss=0" | sudo tee --append /etc/mo
 - ここで解説されていたもの
     - [Disable power management in Stretch](https://www.raspberrypi.org/forums/viewtopic.php?t=194619)
 - まずインタフェースの設定を変更し、再起動する
-```
+```shell
 sudo vi /etc/rc.local
 #viの画面でexit文の前に以下を入力
 sudo iwconfig wlan0 power off
