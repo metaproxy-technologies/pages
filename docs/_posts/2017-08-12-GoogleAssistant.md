@@ -59,10 +59,10 @@ network={
 　　<https://developers.google.com/assistant/sdk/develop/python/hardware/audio>
 
 ## 4) 周辺機器のセットアップ
-    - 4-1) Pimoroni Unicorn HAT HD
-        - ここに書いてある通りにやる
-        <https://github.com/pimoroni/unicorn-hat-hd>
-        - ただし、それだけだとGoogle Assistant のVirtual（＝パッケージを自分専用に仕立てた環境）から使えないので、こうやる。多分本来のPythonのVirtual環境のやりかたと違っているような気もするが、Symbolic Linkではなくきちんとモジュールをコピーしているので、意図はちゃんと忖度しているだろう。。。
+- 4-1) Pimoroni Unicorn HAT HD
+    - ここに書いてある通りにやる
+    <https://github.com/pimoroni/unicorn-hat-hd>
+    - ただし、それだけだとGoogle Assistant のVirtual（＝パッケージを自分専用に仕立てた環境）から使えないので、こうやる。多分本来のPythonのVirtual環境のやりかたと違っているような気もするが、Symbolic Linkではなくきちんとモジュールをコピーしているので、意図はちゃんと忖度しているだろう。。。
 ```shell
 cp -rp /usr/lib/python3/dist-packages/unicornhathd /home/pi/env/lib/python3.4/site-packages/
 cp -rp /usr/lib/python3/dist-packages/spidev.cpython-34m-arm-linux-gnueabihf.so /home/pi/env/lib/python3.4/site-packages/
