@@ -85,8 +85,7 @@ sudo gpasswd -a pi pulse-access
 ## 6) いろいろ繋ぎあわせる
 
 - 仕掛中。ただ、画面表示用にまずは自分直下のsourcesフォルダに突っ込まれた画像またはテキストを（偽）リアルタイム表示するufeederというものを作った
-
-** ufeed.py **
+### ufeeder.py
 ```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
