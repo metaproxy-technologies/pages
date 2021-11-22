@@ -78,7 +78,7 @@ echo "options 8192cu rtw_power_mgnt=0 rtw_enusbss=0" | sudo tee --append /etc/mo
 ```
 
 ## 確認中： 結局iwconfigなのか。。->解決
-　今度はどうだ
+
 - ここで解説されていたもの
     - [Disable power management in Stretch](https://www.raspberrypi.org/forums/viewtopic.php?t=194619)
 - まずインタフェースの設定を変更し、再起動する
@@ -86,7 +86,6 @@ echo "options 8192cu rtw_power_mgnt=0 rtw_enusbss=0" | sudo tee --append /etc/mo
 sudo vi /etc/rc.local
 #viの画面でexit文の前に以下を入力
 sudo iwconfig wlan0 power off
-
 #viを閉じた後再起動
 sudo shutdown -r now
 ```
