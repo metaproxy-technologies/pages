@@ -15,13 +15,13 @@ date: 2018-11-16 18:33:39
 - 上半分に準備した画像を流し、下半分に常時時計を表示するようにしてみた。時刻部分のフォントは[Modern DOS 9x14](https://fonts2u.com/modern-dos-9x14.font)を使っている。
 - 上半分を動かし、下半分を固定するのは単純に個別に書き込むするだけであった。こんな風に
 
-** 抜粋 **
+### 抜粋
 ```python
     double_buffer.SetImage(imText, -xpos) #上半分に画像を流す部分を書き込む
     double_buffer.SetImage(imTime, 0, 8)  #下半分に固定の時刻を書き込む
 ```
 
-** feedwithTime.py **
+### feedwithTime.py
 ```python
 #!/usr/bin/env python
 # -*- encoding:utf8 -*-
