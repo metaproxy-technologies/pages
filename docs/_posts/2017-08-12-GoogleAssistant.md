@@ -8,29 +8,26 @@ Raspberry Piへ人工知能の相棒（Google Assistant）を導入した。こ�
 
 ## 1) 物品の準備
 - Raspi関連
--- [Raspberry Pi3 Model B](http://amzn.to/2wPTEbc)
--- [Raspi の電源アダプタ](http://amzn.to/2wBwkyz)
--- [マイクロSDカード(SDカードにするアダプタ付き)](http://amzn.to/2vuox5O)
--- [SDカードリーダ](http://amzn.to/2vMjdx2)
--- [USBスピーカ](https://www.amazon.co.jp/dp/B00ID0EDRU?tag=arakiejiscom-22)
+    - [Raspberry Pi3 Model B](http://amzn.to/2wPTEbc)
+    - [Raspi の電源アダプタ](http://amzn.to/2wBwkyz)
+    - [マイクロSDカード(SDカードにするアダプタ付き)](http://amzn.to/2vuox5O)
+    - [SDカードリーダ](http://amzn.to/2vMjdx2)
+    - [USBスピーカ](https://www.amazon.co.jp/dp/B00ID0EDRU?tag=arakiejiscom-22)
         手のひらに収まるくらい小さいUSBスピーカー。Bluetooth接続できるし軽いので、持ち運びしやすい。
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=arakiejiscom-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B00ID0EDRU&linkId=66d5c2b3afda31ddaf1d501ca76fefe1"></iframe>
 
 - LED Matrix関連
--- [Pimoroni Unicorn HAT HD](https://www.switch-science.com/catalog/3336/)
-        このPimoroniのMatrixは、HATというRaspiにすぐに差せる規格物なので楽。大抵ピンヘッダは自分で半田付けしなければならないんだけれど、これはその必要もなくてなおのこと楽
-        　（AdafruitのLED Matrixは綺麗で大きく、ひょっとしたらどこかに組んだやつ売れちゃうんじゃないかという位プロ用の雰囲気がするけどRaspiへの接続が若干面倒。。。）
-        なお、これはAmazonでも売ってるけどスイッチサイエンスの３倍くらいの値がついているので、絶対に買ってはダメだと思う。
+    - [Pimoroni Unicorn HAT HD](https://www.switch-science.com/catalog/3336/)
+    このPimoroniのMatrixは、HATというRaspiにすぐに差せる規格物なので楽。大抵ピンヘッダは自分で半田付けしなければならないんだけれど、これはその必要もなくてなおのこと楽（AdafruitのLED Matrixは綺麗で大きく、ひょっとしたらどこかに組んだやつ売れちゃうんじゃないかという位プロ用の雰囲気がするけどRaspiへの接続が若干面倒。。。）なお、これはAmazonでも売ってるけどスイッチサイエンスの３倍くらいの値がついているので、絶対に買ってはダメだと思う。
 
 ## 2) Raspberry Piのセットアップ
 - 割愛。メモだけ記載する
--- OS導入
---- raspbianダウンロード
---- MicroSDをカードリーダでマウントしてから、etcher というアプリで焼く＠OSX
--- ディスプレイ・マウスなしで導入するためにWifi/SSH有効化
---- OSを焼いた後一度カードリーダを抜いて、もう一度挿してからマウント
----- SSH: bootフォルダ直下にsshという空ファイルを作成
----- Wifi: bootフォルダ直下にwpa_supplicant.confというファイルを作成
+    - OS導入
+        - raspbianダウンロード
+        - MicroSDをカードリーダでマウントしてから、etcher というアプリで焼く＠OSX
+        - ディスプレイ・マウスなしで導入するためにWifi/SSH有効化
+        - OSを焼いた後一度カードリーダを抜いて、もう一度挿してからマウント
+            - SSH: bootフォルダ直下にsshという空ファイルを作成
+            - Wifi: bootフォルダ直下にwpa_supplicant.confというファイルを作成
 ```shell
 network={
        ssid="WIFIのSSID"
@@ -43,29 +40,29 @@ network={
        key_mgmt=WPA-PSK
     }
 ```
--- SSHでアクセスする
---- SDカードを挿してRaspiを起動
---- ping raspberrypi.localが通るようになるのを待つ
---- ローカルのターミナルでssh pi@raspberrypi.local
---- パスワードは　raspberry
--- いつもの色々な設定
+    - SSHでアクセスする
+        - SDカードを挿してRaspiを起動
+            - ping raspberrypi.localが通るようになるのを待つ
+            - ローカルのターミナルでssh pi@raspberrypi.local
+            - パスワードは　raspberry
+        - いつもの色々な設定
 ```shell
         apt-get install vim
         apt-get install git
         sudo raspi-config
 ```
 でホスト名変更、パスワード変更、ディスクサイズを合わせる、タイムゾーン設定、カメラ有効化、WIFIの国をJPにsshdのポートなどセキュア化の設定外出時はテザリングのwifiで自動的に繋いでくれるようにする<https://www.thepolyglotdeveloper.com/2016/08/connect-multiple-wireless-networks-raspberry-pi/>
--- 　wifiが切れないようにするためのいろいろな手立て。ただし未だに不安定。。。
+        - wifiが切れないようにするためのいろいろな手立て。ただし未だに不安定。。。
 
 ## 3) Google Assistantのセットアップ
 　これはGoogle先生のサイトで間違いない。わかりにくいRasiでの音出し・マイク設定もさらりとまとめてあって言うことなし。ただ、OS導入部分はわかりにくいので途中のここから始めるのがいい
 　　<https://developers.google.com/assistant/sdk/develop/python/hardware/audio>
 
 ## 4) 周辺機器のセットアップ
-- 4-1) Pimoroni Unicorn HAT HD
--- ここに書いてある通りにやる
-    <https://github.com/pimoroni/unicorn-hat-hd>
--- ただし、それだけだとGoogle Assistant のVirtual（＝パッケージを自分専用に仕立てた環境）から使えないので、こうやる。多分本来のPythonのVirtual環境のやりかたと違っているような気もするが、Symbolic Linkではなくきちんとモジュールをコピーしているので、意図はちゃんと忖度しているだろう。。。
+    - 4-1) Pimoroni Unicorn HAT HD
+        - ここに書いてある通りにやる
+        <https://github.com/pimoroni/unicorn-hat-hd>
+        - ただし、それだけだとGoogle Assistant のVirtual（＝パッケージを自分専用に仕立てた環境）から使えないので、こうやる。多分本来のPythonのVirtual環境のやりかたと違っているような気もするが、Symbolic Linkではなくきちんとモジュールをコピーしているので、意図はちゃんと忖度しているだろう。。。
 ```shell
 cp -rp /usr/lib/python3/dist-packages/unicornhathd /home/pi/env/lib/python3.4/site-packages/
 cp -rp /usr/lib/python3/dist-packages/spidev.cpython-34m-arm-linux-gnueabihf.so /home/pi/env/lib/python3.4/site-packages/
@@ -74,9 +71,9 @@ cp -rp /usr/lib/python3/dist-packages/PIL /home/pi/env/lib/python3.4/site-packag
 cp -rp /usr/lib/python3/dist-packages/picamera /home/pi/env/lib/python3.4/site-packages/
 ```
 - 4-2) Bluetooth Speaker
--- ここに書いてある通りにやる
+    - ここに書いてある通りにやる
     <http://qiita.com/nattof/items/3db73a95e63100d7580a>
--- ただし、それだけだと最後にpulseaudioが起動できぬと文句を言われるので、以下を実行
+    - ただし、それだけだと最後にpulseaudioが起動できぬと文句を言われるので、以下を実行
 ```shell
 sudo gpasswd -a pi pulse-access
 ```
