@@ -55,3 +55,31 @@ network={
 ```shell
 ssh pi@raspberrypi.local
 ```
+- 初期セットアップ諸々
+    - sudo raspi-config と入力して以下設定を行う
+        - change password
+        - change hostname
+        - change timezone
+        - change locale
+            - en_GB.UTF-8 を選び直しておいた（ja_JPにするとコンソールが日本語化されてエラーを踏みやすそうなので。。。）
+        - enable Camera
+        - expand filesystem
+{% comment %}
+    - [WIFI接続が切れる問題対策]({% post_url 2019-02-27-raspberry-pi-network-issue %})
+{% endcomment %}
+    - 再起動(sudo shutdown -r now)
+    - sshの設定
+        - keygenしてauthorized_keys作成
+        - そのほか設定
+            - port番号変更／rootログイン禁止/パスワードログイン禁止
+        - 設定が終わったらsshd再起動(sudo /etc/init.d/ssh restart)
+    - ipv6の無効化
+        - すみません。。。
+        - https://www.leowkahman.com/2016/03/19/disable-ipv6-raspberry-raspbian/
+    - アップデート
+        - sudo apt-get update
+        - sudo apt-get upgrade
+        - 再起動(sudo shutdown -r now)
+    - 必要最低限の追加パッケージ
+        - sudo apt-get install vim
+
