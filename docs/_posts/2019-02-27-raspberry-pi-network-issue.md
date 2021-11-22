@@ -1,14 +1,11 @@
 ---
 title: "Raspberry Pi のネットワークが不安定"
 date: 2019-02-27 21:00
-tags: RaspberryPi
 ---
 
 二年間くらい（僕の観測範囲では）WIFI通信が安定しない。
 いい加減うんざりしているので少し調べて調べたことを記録することにする。
 　（解決しました。結局iwconfigでOK）
-
-<img src="./RPi-Logo-Landscape-SCREEN.png" style="width:300px;margin-left:1em;" />
 
 ## 現象
 - 起動後は、外部からRaspberry Piへのアクセスが可能

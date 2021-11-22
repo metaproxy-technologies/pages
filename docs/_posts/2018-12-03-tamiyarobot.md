@@ -1,7 +1,6 @@
 ---
 title: "タミヤ カムプログラムロボットを改造 その１"
 date: 2018-12-03 22:08:03
-tags:
 ---
 
 [タミヤ カムプログラムロボット](https://www.tamiya.com/japan/products/70227/index.html)を息子が組み立てた。

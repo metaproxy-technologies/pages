@@ -1,7 +1,6 @@
 ---
 title: "Adafruit LED matrixラジオ体操 その２"
 date: 2018-11-16 18:33:39
-tags: LED Adafruit RaspberryPi
 ---
 
 だんだんラジオ体操とは程遠くなってきたが。。。その後のUpdateをさせてください。
@@ -17,13 +16,13 @@ tags: LED Adafruit RaspberryPi
 - 上半分を動かし、下半分を固定するのは単純に個別に書き込むするだけであった。こんな風に
 
 ** 抜粋 **
-```
+```python
     double_buffer.SetImage(imText, -xpos) #上半分に画像を流す部分を書き込む
     double_buffer.SetImage(imTime, 0, 8)  #下半分に固定の時刻を書き込む
 ```
 
 ** feedwithTime.py **
-```
+```python
 #!/usr/bin/env python
 # -*- encoding:utf8 -*-
 # Copyright (C) 2013 Henner Zeller <h.zeller@acm.org> for original work.
