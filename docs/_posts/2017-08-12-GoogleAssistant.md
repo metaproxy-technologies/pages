@@ -4,8 +4,7 @@ date: 2017-08-12 01:53:45
 ---
 
 Raspberry Piへ人工知能の相棒（Google Assistant）を導入した。こいつにいろいろ付けて街へ出よう一緒に。
-
-{% youtube V-1AkxU_EPo %}
+<https://www.youtube.com/watch?v=V-1AkxU_EPo>
 
 ## 1) 物品の準備
 - Raspi関連
