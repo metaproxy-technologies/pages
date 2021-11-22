@@ -1,3 +1,66 @@
+<img src="../assets/2018-12-12-kansei.jpg" style="width:300px; margin-left:1em;">
+
+## はじめに言い訳
+なお、別口と申し上げたが、実はこの別口こそが本来の本筋であって本来このエントリは「タミヤ カムプログラムロボットを改造 その２」のはずであった。。
+
+個人ブログで適当に書き進めていたせいか、二つのエントリの続きなのである。二つの記事からの続きなんて、雑誌などではあり得ないが
+まぁご容赦いただきたい。
+
+## 作ったものの構成
+
+結局こういう構成になった。
+
+        Android対応のGamepad（無線／端末をマウントできるもの）
+            |
+          Firefox (on Android)
+            |
+            |-------------------------------
+            |                              |
+        [RPI Camera+mjpeg streamer]   [node.js + Socket.IO]
+            |                              |
+            |-------------------------------
+            |
+        Raspberry Pi Zero W
+            |
+         [USB] on /dev/ttyACM0
+            |
+        Arduino Leonard + Adafruit Motor Shield V2
+            |
+        DC Motor of カムプログラムロボット
+
+
+最初macにコントローラを繋いだのだが、有線なので
+未来感がなかったのか、いまいち息子の支持を得られなかった。。。
+
+これではまずいということで、Android用のGamepadを購入した。最近は端末をマウントできるものがあって、これがあるとすごくロボットの
+コンソールっぽいのである。
+<img src="../assets/2018-12-12-enlarge.png" style="width:300px; margin-left:1em;">
+
+案の定息子の心に火をつけることに成功。
+ただ、モバイルのChromeはGamepadAPIを未実装なのか動かなかったのでFirefoxを導入した。
+
+余談だが、なんだかEdgeがなくなることとか、こういう、Chromeではやってくれない部分の対応の速さをみると、やっぱりFirefoxみたいな挑戦者はいつでも必要だよな。。。と思い直し、最近言いふらしていた「立ち位置的にはopenソース化前のCommunicator化してきている」などどいう偏見に基づく悪口を言うのをやめることにした。
+
+## ①　まずは開発環境作りから。。。
+
+[以前]({% post_url 2018-12-04-rpi-arduino-ide %})、mac+XWindow経由でArduino IDEを使えるようにしたのでこれで開発をと考えていた。しかし、流石に遅くて辛い。さらにXQuartsに文字列をペーストするのもなかなかしっくりくる方法がなさそうなのでこれは見た目が派手なだけであった。なので早々に諦めた。
+
+- かわりに[この記事のやり方で]({% post_url 2018-12-08-rpi-arduino-ide2nd %})こういう構成をつくった
+  - vscode + sftpで手元のコードをRPIへ自動アップロード
+  - make uploadでArduinoにスケッチを叩き込む
+- なお、Arduinoの他、ゲームパッドの入力を受けるのにnodejs+Socket.IO(WebSocket)を
+つかったが、その準備はこうすればいい
+```shell
+mkdir noderoot
+cd noderoot
+git clone https://github.com/creationix/nvm.git ~/.nvm
+source ~/.nvm/nvm.sh
+nvm install 8.9.4
+npm install socket.io
+npm install express
+```
+
+
 ## ②　次に、カムロボットとか、カメラでの映像配信を準備する
 
 [タミヤ カムプログラムロボットを改造 その１]({% post_url 2018-12-03-tamiyarobot %})でやったように準備する。
