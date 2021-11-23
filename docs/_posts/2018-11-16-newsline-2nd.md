@@ -1,5 +1,5 @@
 ---
-title: "Adafruit LED matrixラジオ体操 その２"
+title: "Adafruit LED matrixラジオ体操(その２)"
 date: 2018-11-16 18:33:39
 ---
 
