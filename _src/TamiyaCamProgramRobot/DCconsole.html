@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+      <style>
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+body{
+  color: rgba(255,255,255,.75);
+  font-family: 'Press Start 2P', cursive;
+  background-color: rgb(25,25,25);
+  font-size: 1.0em;
+  padding: 2.0em;
+  line-height: 1.8rem;
+}
+.buttons{
+}
+.button{
+  background-color: #4CAF50;
+  border:rgba(255,255,255,.75) solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.bb {
+  background-color: rgb(39, 28, 192); 
+}
+.by {
+  background-color: rgb(241, 255, 44); 
+  border-top:rgba(255,255,255,.75) solid;
+}
+.br {
+  background-color: rgb(247, 68, 68); 
+}
+.bg {
+  background-color:  #4CAF50;
+}
+.parent {
+  display: flex;
+  justify-content:left;
+}
+.child1{
+    width: 1000px;
+}
+.child2 {
+    border: rgb(248, 45, 45) solid;
+    border: #4CAF50 solid;
+    padding:10px;
+    font-size: 90%;
+}
+
+form input {
+    color: rgba(255,255,255,.75);
+    font-family: 'Press Start 2P', cursive;
+    background-color: rgb(25,25,25);
+    font-size: 1.0em;
+    padding: 2.0em;
+    line-height: 1.8rem;
+    border: 0; padding: 10px; 
+    border-top:rgba(255,255,255,.75) solid;
+    border-left:rgba(255,255,255,.75) solid;
+    border-bottom:rgba(255,255,255,.75) solid;
+
+}
+form button {
+    color: rgba(255,255,255,.75);
+    font-family: 'Press Start 2P', cursive;
+    background-color: rgb(224, 34, 81);
+    font-size: 1.0em;
+    padding: 2.0em;
+    line-height: 1.8rem;
+    border: 0; padding: 10px; 
+    border-top:rgba(255,255,255,.75) solid;
+    border-right:rgba(255,255,255,.75) solid;
+    border-bottom:rgba(255,255,255,.75) solid;
+}
+
+
+    </style>
+</head>
+<body>
+<script>
+    function setMessage(selector,text) {
+        $(selector).html(text);
+    }
+    function addMessage(selector,text) {
+        $(selector).html($(selector).html()+"<br/>"+text);
+    }
+    function invertColors(elem) {
+        var color = $(elem).css('color');
+        $(elem).css('color') = $(elem).css('background-color');
+        $(elem).css('background-color') = color;
+    }
+    function pickGPtoJSON(gp){
+        var bi;
+        var json = {};
+        for( bi=0; bi < gp.buttons.length; bi++ ){
+            json["b"+bi] = gp.buttons[bi].value;
+        }
+        for( bi=0; bi < gp.axes.length; bi++ ){
+            json["a"+bi] = gp.axes[bi];
+        }
+        return json;
+    }
+
+    function loadMjpgImg(){
+        $("#camera").attr('src',"http://"+location.hostname+":9000/?action=snapshot");
+    }
+    function mainLoop(){
+        var bi;
+        var gp = navigator.getGamepads()[0];
+        if (gp) {
+            socket.emit('gpFromClient', JSON.stringify(pickGPtoJSON(gp)));
+        }
+        lp = raf(mainLoop);
+    }
+
+    var gp = false;
+    var lp;
+    var raf  = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+    var rafS = window.mozCancelRequestAnimationFrame || window.webkitCancelRequestAnimationFrame || window.cancelRequestAnimationFrame;
+    var lp2;
+    var socket;
+    var parsedMsg;
+    $(document).ready(function() {
+
+        window.addEventListener("gamepadconnected", function(e) {
+            gp = navigator.getGamepads()[e.gamepad.index];
+            addMessage("#console","[NAME:"+ gp.id +"], [# OF BUTTONS:"+gp.buttons.length+"], [# OF AXES:"+gp.axes.length+"]");
+            mainLoop();
+        });
+        window.addEventListener("gamepaddisconnected", function(e) {
+            gp = false;
+            addMessage("#console","connection terminated");
+            rafs(lp);
+        });
+        
+        socket = io();
+        socket.on('gpFromSrv', function(msg){
+            var bi;
+            parsedMsg = JSON.parse(msg);
+            setMessage("#status","--status of Gamepad via Srv--")
+            Object.keys(parsedMsg).forEach(function (key) {
+                addMessage("#status", key + "> " + parsedMsg[key] );
+            });
+        });
+        
+        lp2 = setInterval(loadMjpgImg, 200);;
+    });
+</script>
+<div class="parent">
+<div class="child1">
+        <div class="buttons">
+                <span id="btnX" class="button bb">X</span><span id="btnX" class="button by">Y</span><span id="btnX" class="button br">A</span><span id="btnX" class="button bg">B</span>
+        </div>
+                <span id="status">---status-------<br/>
+                b:0> -:-<br/></span>
+</div>
+<div class="child2">
+        <img style="width:640px;height:480px;" id="camera" src="" />
+        <form id="frmMes" action="">
+          <input id="m" autocomplete="off" /><button>Send</button>
+        </form>
+            <span id="console">console<br/>------------------------------------<br/></span>
+</div>
+
+</body>
+</html>
