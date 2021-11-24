@@ -1,4 +1,5 @@
 
+remote_theme : academicpages/academicpages.github.io@0.8.1
 
 # Site Settings
 locale                   : "en-US"
@@ -260,6 +261,9 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-include-cache
+  - jekyll-remote-theme
+  
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
