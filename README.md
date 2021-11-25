@@ -1,7 +1,7 @@
 # pages
 
-This page is src of webpage of Metaproxy technologies.
-  https://metaproxy.co.
+This page is source of webpage of Metaproxy technologies.
+https://metaproxy.co.
   
   - Hosted in github pages.
   - Theme is from https://github.com/metaproxy-technologies/minimal-mistakes
