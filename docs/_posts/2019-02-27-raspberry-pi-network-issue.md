@@ -1,6 +1,7 @@
 ---
 title: "Raspberry Pi のネットワークが不安定"
 date: 2019-02-27 21:00
+classes: wide
 ---
 
 二年間くらい（僕の観測範囲では）WIFI通信が安定しない。
