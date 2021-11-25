@@ -1,6 +1,6 @@
-# pages
+# About this repository.
 
-This page is source of webpage of Metaproxy technologies.
+This repository is source of webpage of Metaproxy technologies.
 https://metaproxy.co.
   
   - Hosted in github pages.
