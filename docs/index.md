@@ -2,7 +2,7 @@
 layout: home
 author_profile: false
 header:
-  image: logo.jpeg
+  image: ./assets/logo.jpeg
 ---
 
 ### いらっしゃいませ
