@@ -53,12 +53,14 @@ github pagesはこんな特徴がある
 - 使いたいテーマをforkし、変更を加えたい箇所を変更する
 [fork](../assets/2021-11-28-fork.jpeg)
 - _config.ymlで指定する
-```
+
+```yaml
 remote_theme: metaproxy-technologies/minimal-mistakes
 plugins:
   - 他のプラグイン
   - jekyll-remote-theme
 ```
+
 - ブログ側のrepositoryを更新して反映する
 
 
