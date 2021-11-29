@@ -74,7 +74,7 @@ githubのレポジトリ上にソースはあるので、このようにする
 - マークダウンに埋め込む
 
 ### ブラウザ上で編集しているところ
-![fork](../assets/2021-11-28-drawsample.jpeg)
+![fork](../assets/2021-11-28-drawsample.png)
 
 ### 作って埋め込んだ図
 ![Label](../assets/2021-11-28-cooking.drawio.svg)
@@ -83,4 +83,8 @@ githubのレポジトリ上にソースはあるので、このようにする
 <https://github.com/philip-gai/github-drawio-demo>
 
 
+## 蛇足
+正直github pagesでWebpageを作ることの是非はあるかもしれない。おそらくプロダクトのページを作るのが正しいんだろう。
+
+ただ、ここで実験を繰り返すことでおそらくgithubを起点にしたjekyllでの静的CMS運用のノウハウはたまるし、せめてレポジトリはpublicを堅持することで、ソース＆テーマをopensourceで世の中に（蚊の鳴く声ほどの分量だが）還元できるのでしばらくやってみようと思う。
 
