@@ -66,12 +66,21 @@ plugins:
 
 ## 補足<2>
 
-githubのレポジトリ上にソースはあるので、「レポジトリ上で「.」を押してブラウザ上のvscode起動　ー＞　drawioで図を描いて埋め込み」みたいなことも可能。何でもできるというか、github＆ブラウザ上に完全に環境を作ることができた雰囲気。テーマカスタマイズのやり方が腹に落ちれば何でもできそう。
+github.dev & [drawio](https://github.com/philip-gai/github-drawio-demo)を使って図を作成し埋め込むことも可能。
 
-![fork!](../assets/2021-11-28-drawsample.jpeg)
+githubのレポジトリ上にソースはあるので、このようにする
+- レポジトリ上で「.」を押してブラウザ上のvscode起動
+- drawioで図を描く
+- マークダウンに埋め込む
 
-![Label](../assets/2021-11-28-cooking.drawio.svg))
+### ブラウザ上で編集しているところ
+![fork](../assets/2021-11-28-drawsample.jpeg)
 
+### 作って埋め込んだ図
+![Label](../assets/2021-11-28-cooking.drawio.svg)
+
+詳しくはブログ用のレポジトリ作成後にこちらを参照
+<https://github.com/philip-gai/github-drawio-demo>
 
 
 
