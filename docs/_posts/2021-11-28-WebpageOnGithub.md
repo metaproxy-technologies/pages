@@ -16,9 +16,9 @@ classes: wide
 
 github pagesはこんな特徴がある
 - github上にwebsiteを作ることができる
-    - repository上にマークダウンを配置してcommitすると自動でビルドしてくれ、変更反映
+    - repository上にマークダウンを配置してcommitすると自動でビルドしてくれる
     - 戻しもマークダウンを戻すだけ
-    - 自動ビルドに失敗してもページが壊れない。エラー修正してからcommitすればよい
+    - 自動ビルドに失敗してもページが壊れない。エラー修正してからcommitすれば改めてビルドしてくれる
 - 独自ドメインを割り当てることができる
 - テーマ多数。カスタマイズ可能
     - テーマをforkしてからカスタマイズすれば自由自在に変更可能
@@ -51,16 +51,15 @@ github pagesはこんな特徴がある
 テーマのカスタマイズ方法が分からなかった。大体ローカルに持ってきてビルド環境を作るべし、というアドバイスが多かったからだ。ただ、github pagesの利点はローカルにビルド環境を作らないことが利点だと思うので、そうならないようにこのようにした
 
 - 使いたいテーマをforkし、変更を加えたい箇所を変更する
-[fork](../assets/2021-11-28-fork.jpeg)
-- _config.ymlで指定する
-
+![fork!](../assets/2021-11-28-fork.jpeg)
+- _config.ymlでforkしたテーマのリポジトリを指定する
+    - theme: ではなく remote_theme: で指定する
 ```yaml
 remote_theme: metaproxy-technologies/minimal-mistakes
 plugins:
   - 他のプラグイン
   - jekyll-remote-theme
 ```
-
 - ブログ側のrepositoryを更新して反映する
 
 
