@@ -46,7 +46,7 @@ github pagesはこんな特徴がある
 詳しくはこちらの公式を読み進めてゆくと作ることができる。
 <https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages>
 
-## 補足
+## 補足<1>
 
 テーマのカスタマイズ方法が分からなかった。大体ローカルに持ってきてビルド環境を作るべし、というアドバイスが多かったからだ。ただ、github pagesの利点はローカルにビルド環境を作らないことが利点だと思うので、そうならないようにこのようにした
 
@@ -63,6 +63,14 @@ plugins:
 ```
 
 - ブログ側のrepositoryを更新して反映する
+
+## 補足<2>
+
+githubのレポジトリ上にソースはあるので、「レポジトリ上で「.」を押してブラウザ上のvscode起動　ー＞　drawioで図を描いて埋め込み」みたいなことも可能。何でもできるというか、github＆ブラウザ上に完全に環境を作ることができた雰囲気。テーマカスタマイズのやり方が腹に落ちれば何でもできそう。
+
+![fork!](../assets/2021-11-28-drawsample.jpeg)
+
+![Label](../assets/2021-11-28-cooking.drawio.svg))
 
 
 
