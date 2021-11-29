@@ -53,7 +53,8 @@ github pagesはこんな特徴がある
 - 使いたいテーマをforkし、変更を加えたい箇所を変更する
 ![fork!](../assets/2021-11-28-fork.jpeg)
 
-- _config.ymlで指定する
+- _config.ymlでforkしたテーマのリポジトリを指定する
+    - theme: ではなく remote_theme: で指定する
 
 ```yaml
 remote_theme: metaproxy-technologies/minimal-mistakes
