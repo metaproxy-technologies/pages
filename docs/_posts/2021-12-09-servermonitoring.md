@@ -33,7 +33,7 @@ classes: wide
 <https://api.slack.com/messaging/webhooks>
 
 いろいろと記載がありますが、"Create your Slack app"ボタンをいきなり押してから、各ページにあるガイドに従ってゆくと特に苦労なく作ることができます。
-![Label](../assets/2021-12-09-createslackapp.png)
+![Label](../assets/2021-12-09-createslackapp.png | width=70vw)
 
 ### メール転送用のシェルスクリプトをつくります
 
@@ -46,7 +46,7 @@ vi /home/userA/notify.sh
 #!/bin/bash
 
 #URLはこのようなものです
-#  "https://hooks.slack.com/services/XX12345789/XXX12345678/abcd1253745489124"    3
+#  "https://hooks.slack.com/services/XX12345789/XXX12345678/abcd1253745489124"
 URL="先ほど作成したWEBHOOKのURL"  
 LF=$'\n'
 
@@ -84,9 +84,9 @@ sudo newaliases
 
 ### メールを作ってテストします
 
-mailコマンドで投入します
+mailコマンドでrootへメールを投入します
 ```shell
- echo "This is the body of the email" | mail -s "This is the subject line" root@xi.arkt.me
+ echo "This is the body of the email" | mail -s "This is the subject line" root@localhost
 ```
 
 いけましたね
