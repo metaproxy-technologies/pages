@@ -16,13 +16,12 @@ classes: wide
 
 
 ## 仕組み
-
 サーバ内の通知を一度メールとして集め、集めたメールをWebhook経由でSlackのChannelへ送付します。
 ![Label](../assets/2021-12-09-notifytoslack.drawio.svg)
 
 ## 仕掛け方
 
-### postfixを導入します。
+### MTA(postfix)を導入します
 <https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-as-a-send-only-smtp-server-on-ubuntu-20-04>
 
 ### 各種サービスの通知をメールでどこかに集めます
@@ -34,7 +33,7 @@ classes: wide
 
 いろいろと記載がありますが、"Create your Slack app"ボタンをいきなり押してから、各ページにあるガイドに従ってゆくと特に苦労なく作ることができます。
 
-<img src="../assets/2021-12-09-createslackapp.png" width="60%" />
+<img src="../assets/2021-12-09-createslackapp.png" width="55%" />
 
 
 ### メール転送用のシェルスクリプトをつくります
@@ -64,8 +63,9 @@ curl -X POST \
   $URL
 ```
 
-### /etc/aliasesを編集し、メールを先ほど作ったScriptへ転送します
+### メールを先ほど作ったScriptへ転送します
 
+/etc/aliasesを編集します。
 ```shell
 sudo vi /etc/aliases
 ```
@@ -93,7 +93,7 @@ mailコマンドでrootへメールを投入します
 
 いけましたね
 
-<img src="../assets/2021-12-09-result.png" width="60%" />
+<img src="../assets/2021-12-09-result.png" width="55%" />
 
 
 
