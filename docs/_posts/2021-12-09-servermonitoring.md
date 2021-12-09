@@ -33,7 +33,8 @@ classes: wide
 <https://api.slack.com/messaging/webhooks>
 
 いろいろと記載がありますが、"Create your Slack app"ボタンをいきなり押してから、各ページにあるガイドに従ってゆくと特に苦労なく作ることができます。
-<img src="../assets/2021-12-09-createslackapp.png" width=70vw />
+
+<img src="../assets/2021-12-09-createslackapp.png" width=70% />
 
 ### メール転送用のシェルスクリプトをつくります
 
