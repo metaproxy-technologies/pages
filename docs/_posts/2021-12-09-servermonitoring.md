@@ -34,9 +34,13 @@ classes: wide
 いろいろと記載がありますが、"Create your Slack app"ボタンをいきなり押してから、各ページにあるガイドに従ってゆくと特に苦労なく作ることができます。
 
 ![Label](../assets/2021-12-09-slackapp00.drawio.svg)
+
 ![Label](../assets/2021-12-09-slackapp01.drawio.svg)
+
 ![Label](../assets/2021-12-09-slackapp03.drawio.svg)
+
 ![Label](../assets/2021-12-09-slackapp05.drawio.svg)
+
 ![Label](../assets/2021-12-09-slackapp07.drawio.svg)
 
 
