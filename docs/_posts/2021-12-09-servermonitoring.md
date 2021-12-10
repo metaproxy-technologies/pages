@@ -25,7 +25,7 @@ classes: wide
 <https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-as-a-send-only-smtp-server-on-ubuntu-20-04>
 
 ### 各種サービスの通知をメールでどこかに集めます
-いったん<root@locakhost>などに集約してしまってよいと思います。歴史的にメールで通知することが多かったので、たいていのサービスはメールで通知することができます（ただでさえrootには何かとお知らせが集まってくるので）
+いったん<root@localhost>などに集約してしまってよいと思います。通知といえばメールの時代が長らく続きましたから、たいていのサービスはメールで通知することができます（ただでさえrootには何かとお知らせが集まってくるので）
 
 ### Slackでチャネルを作り、WebHook受付用のURLを作ります
 "Incoming Webhook"と呼ばれているそうです。こちらのガイドに従ってSlackのAppをつくると、そのURLを発行することができます。
@@ -33,7 +33,11 @@ classes: wide
 
 いろいろと記載がありますが、"Create your Slack app"ボタンをいきなり押してから、各ページにあるガイドに従ってゆくと特に苦労なく作ることができます。
 
-<img src="../assets/2021-12-09-createslackapp.png" width="55%" />
+![Label](../assets/2021-12-09-slackapp00.drawio.svg)
+![Label](../assets/2021-12-09-slackapp01.drawio.svg)
+![Label](../assets/2021-12-09-slackapp03.drawio.svg)
+![Label](../assets/2021-12-09-slackapp05.drawio.svg)
+![Label](../assets/2021-12-09-slackapp07.drawio.svg)
 
 
 ### メール転送用のシェルスクリプトをつくります
