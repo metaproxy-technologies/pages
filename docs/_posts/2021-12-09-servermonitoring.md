@@ -16,7 +16,7 @@ classes: wide
 
 
 ## 仕組み
-サーバ内の通知を一度メールとして集め、集めたメールをWebhook経由でSlackのChannelへ送付します。
+サーバ内の通知を一度メールとして集め、集めたメールをSlack AppのWebhook URLでSlackAppに引き渡し、最後にSlack AppがChannelに書き込みます。
 ![Label](../assets/2021-12-09-notifytoslack.drawio.svg)
 
 ## 仕掛け方
@@ -27,7 +27,7 @@ classes: wide
 ### 各種サービスの通知をメールでどこかに集めます
 いったん<root@localhost>などに集約してしまってよいと思います。通知といえばメールの時代が長らく続きましたから、たいていのサービスはメールで通知することができます（ただでさえrootには何かとお知らせが集まってくるので）
 
-### Slackでチャネルを作り、WebHook受付用のURLを作ります
+### Slack App & WebHook受付用のURLを作ります
 "Incoming Webhook"と呼ばれているそうです。こちらのガイドに従ってSlackのAppをつくると、そのURLを発行することができます。
 <https://api.slack.com/messaging/webhooks>
 
