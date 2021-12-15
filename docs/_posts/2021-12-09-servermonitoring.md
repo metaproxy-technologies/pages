@@ -62,7 +62,7 @@ LF=$'\n'
 concat=""
 while read line
 do
-    concat=$concat$(echo $line | sed 's|["'\''`|><;:/=@\*?{}-]| |g')$LF
+  concat=$concat$(echo $line | sed 's|["'\''`|><;:/=@\*?{}-~#]| |g')$LF
 done
 
 curl -X POST \
