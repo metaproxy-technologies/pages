@@ -97,6 +97,19 @@ githubのレポジトリ上にソースはあるので、このようにしま�
 詳しくはブログ用のレポジトリ作成後にこちらを参照
 <https://github.com/philip-gai/github-drawio-demo>
 
+## 作り方の補足<3>
+
+markdownだけで図がかけたほうが簡便ですから、mermaidも埋め込めるようにしました。
+テーマに埋め込むと、mermaid記法で図が書けるようになります。
+
+```mermaid
+graph LR;
+    A-->B;
+    B-->D;
+    C-->D;
+```
+
+埋め込み方は<https://qiita.com/fumitoh/items/ff28e0720ab0ebc84e96>をご覧ください。
 
 ## 最後に
 ご紹介しましたが、構築するPageによってはgithub pagesでWebpageを作ることの是非はあると考えています。プロダクトのページを作るのが本命なのだと思います。技術に関連しないPageの構築をお考えの方は、github pagesの規約を熟読することをお勧めいたします。
