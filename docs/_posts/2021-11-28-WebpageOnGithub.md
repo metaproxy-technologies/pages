@@ -37,8 +37,8 @@ webpageの元は当然github上のただのマークダウンですから、通�
 
 このブログはminimal mistakeというテーマをforkしてカスタマイズしたものを使っています。
 
-- ブログのレポジトリ <https://github.com/metaproxy-technologies/pages>
-- ブログが利用しているテーマ(forkしてカスタマイズしたもの)<https://github.com/metaproxy-technologies/minimal-mistakes>
+- このブログのレポジトリ <https://github.com/metaproxy-technologies/pages>
+- このブログが利用しているテーマ(forkしてカスタマイズしたもの)<https://github.com/metaproxy-technologies/minimal-mistakes>
 
 
 ## 作り方(概略)
@@ -110,6 +110,8 @@ graph LR;
 ```
 
 埋め込み方は<https://qiita.com/fumitoh/items/ff28e0720ab0ebc84e96>をご覧ください。
+
+または、このブログが利用しているカスタマイズ済みのテーマをご利用ください<https://github.com/metaproxy-technologies/minimal-mistakes>
 
 ## 最後に
 ご紹介しましたが、構築するPageによってはgithub pagesでWebpageを作ることの是非はあると考えています。プロダクトのページを作るのが本命なのだと思います。技術に関連しないPageの構築をお考えの方は、github pagesの規約を熟読することをお勧めいたします。
