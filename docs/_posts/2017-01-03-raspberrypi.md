@@ -1,5 +1,5 @@
 ---
-title: "serverbuild cheat sheet"
+title: "raspberry pi cheat sheet"
 date: 2017-01-01
 ---
 
