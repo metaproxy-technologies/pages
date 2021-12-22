@@ -88,7 +88,6 @@ Xサーバを導入します。
 ↑の方の記事が素晴らしく、とても簡単にX(Window System)のServerを導入できます。
 ずっとあやふやだったんですが、XServerは手元のConsoleで起動したGUIプログラムを稼働させる窓をつくるものなんですね。Remoteアプリサーバみたいな名前だったらもっとわかりやすかったでしょうに。。
 
-
 ## Windows側でクリップボード内部の画像をBase64エンコードしてからWSL2上のクリップボードへコピーしそれを一度WSL2上で画像としてデコードしてから、改めてxclipへ読み込ませます
 
 なんだかよくわかりませんがこういうことをやります。
@@ -130,19 +129,16 @@ xclip -selection clipboard -t image/jpeg -i test_decode1.jpg
 - [Windows でコピーした画像を Bes64 形式のテキストで VcXsrv のクリップボードに渡す](https://gist.github.com/hankei6km/3d09d3573b0ce4233c91f20f7c88b635)
 - [Copying a non PNG image to the X clipboard](https://stackoverflow.com/questions/59385093/copying-a-non-png-image-to-the-x-clipboard)
 
-
 ## できましたね
 
 このように張り付きます
 
-```
+```shell
 ![](2021-12-22-19-01-22.png)
 ```
 
-![](2021-12-22-19-01-22.png)
-
+![result](2021-12-22-19-01-22.png)
 
 ## 結果について
 
 ここで素晴らしい方ならばpaste imageのエンハンス開発を行って上記相当のことを自動で行うように組み込むのでしょうが、限られた時間では限界でした。どなたかが改善されるときに役立つことを願って、ネットに放流させていただきます。
-
