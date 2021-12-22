@@ -18,7 +18,8 @@ graph LR
   A[paste image拡張でmarkdownへ図を張り付け]
   B[WSL2上のローカルリポジトリ]
   C[github上のリモートリポジトリへpush]
-  A --> B --> C
+  A --> B
+  B --> C
 ```
 
 vscodeでwsl2上のgitレポジトリを編集しようとしたのが始まりでした。普段WSL2上のSSH鍵でGithubのレポジトリへアクセスしていますので、これをそのまま転用しようと考えたのです。
@@ -46,8 +47,9 @@ graph LR
   B[B.clipboard <WSL2内部>]
   C[C.xclip]
   D[D.pngへ保存]
-
-  A --> B --> C -->D
+  A --> B
+  B --> C
+  C --> D
 ```
 
 各々”解決策”があります。
@@ -72,8 +74,9 @@ graph LR
   B[B.clipboard <WSL2内部>]
   C[C.xclip]
   D[D.pngへ保存]
-
-  A --> B --> C -->D
+  A --> B
+  B --> C
+  C --> D
 ```
 
 実際にはこのようにやります
@@ -98,9 +101,9 @@ graph
   B[Powershellでその画像をBase64でテキスト化しクリップボードへ格納]
   C[格納したテキストをxselで読み出し画像に戻す]
   D[画像をxclipでWSL2のクリップボードへ格納]
-
-  A --> B --> C -->D
-
+  A --> B
+  B --> C
+  C --> D
 ```
 
 ## こうです
@@ -137,7 +140,7 @@ xclip -selection clipboard -t image/jpeg -i test_decode1.jpg
 ![](2021-12-22-19-01-22.png)
 ```
 
-![result](2021-12-22-19-01-22.png)
+![result](../assets/2021-12-22-19-01-22.png)
 
 ## 結果について
 
