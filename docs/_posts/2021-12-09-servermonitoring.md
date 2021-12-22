@@ -14,20 +14,23 @@ classes: wide
 
 このあたりいつも監視設計をすると結局メールBOXに流し込んだうえで何となく日々眺めるか、もしくは行動がないのだから受信すらしないという形に落ち着いていると思いますが、Slackに流し込んでみて監視がどのようになるのか試験してみたいと思います。
 
-
 ## 仕組み
+
 サーバ内の通知を一度メールとして集め、集めたメールをSlack AppのWebhook URLでSlackAppに引き渡し、最後にSlack AppがChannelに書き込みます。
 ![Label](../assets/2021-12-09-notifytoslack.drawio.svg)
 
 ## 仕掛け方
 
 ### MTA(postfix)を導入します
+
 <https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-as-a-send-only-smtp-server-on-ubuntu-20-04>
 
 ### 各種サービスの通知をメールでどこかに集めます
+
 いったん<root@localhost>などに集約してしまってよいと思います。通知といえばメールの時代が長らく続きましたから、たいていのサービスはメールで通知することができます（ただでさえrootには何かとお知らせが集まってくるので）
 
 ### Slack App & WebHook受付用のURLを作ります
+
 "Incoming Webhook"と呼ばれているそうです。こちらのガイドに従ってSlackのAppをつくると、そのURLを発行することができます。
 <https://api.slack.com/messaging/webhooks>
 
@@ -43,10 +46,10 @@ classes: wide
 
 ![Label](../assets/2021-12-09-slackapp07.drawio.svg)
 
-
 ### メール転送用のシェルスクリプトをつくります
 
 たとえばuserAのhomeに、パイプで受け取った入力をSlackのWebhookへ叩き込むようなスクリプトを作成します
+
 ```shell
 vi /home/userA/notify.sh
 ```
@@ -74,6 +77,7 @@ curl -X POST \
 ### メールを先ほど作ったScriptへ転送します
 
 /etc/aliasesを編集します。
+
 ```shell
 sudo vi /etc/aliases
 ```
@@ -88,6 +92,7 @@ root: "| /home/userA/notify.sh"
 ```
 
 編集後にaliasesのDBを作り直します
+
 ```shell
 sudo newaliases
 ```
@@ -95,6 +100,7 @@ sudo newaliases
 ### メールを作ってテストします
 
 mailコマンドでrootへメールを投入します
+
 ```shell
  echo "This is the body of the email" | mail -s "This is the subject line" root@localhost
 ```
@@ -106,7 +112,3 @@ mailコマンドでrootへメールを投入します
 ## 本番適用時の注意点
 
 スクリプト側で何のサニタイズもしていないので、恐らくメールを着信させるなどの方法で任意のリモートコードを実行する脆弱性が含まれているはずです。　本格的に利用する場合はnotify.shの中身をきちんとしたプログラミング言語で置き換えた後にサニタイズを行い、curlではなく当該言語のやり方でjsonをpostするようにいたしましょう。何事にも完璧はないと思いますが最低限その対策は必要なはずです。
-
-
-
-
