@@ -6,22 +6,25 @@ date: 2018-11-16 18:33:39
 だんだんラジオ体操とは程遠くなってきたが。。。その後のUpdateをさせてください。
 [前回の記事]({% post_url 2017-10-25-newsline %})
 
-
 ## Adafruit LED MatrixはHATを使うと（多分）ずっと楽
+
 - 正直次に作るときはこれを使おうと思う。Raspi->LEDMatrix, LEDMatrix->電源 部分の接続が一発で終わるから
 - [Adafruit RGB Matrix + Real Time Clock HAT for Raspberry Pi DIY your very own Times Square sign](https://learn.adafruit.com/adafruit-rgb-matrix-plus-real-time-clock-hat-for-raspberry-pi)
 
 ## feeder.py の時刻表示バージョンを作成
+
 - 上半分に準備した画像を流し、下半分に常時時計を表示するようにしてみた。時刻部分のフォントは[Modern DOS 9x14](https://fonts2u.com/modern-dos-9x14.font)を使っている。
 - 上半分を動かし、下半分を固定するのは単純に個別に書き込むするだけであった。こんな風に
 
 ### 抜粋
+
 ```python
     double_buffer.SetImage(imText, -xpos) #上半分に画像を流す部分を書き込む
     double_buffer.SetImage(imTime, 0, 8)  #下半分に固定の時刻を書き込む
 ```
 
 ### feedwithTime.py
+
 ```python
 #!/usr/bin/env python
 # -*- encoding:utf8 -*-
@@ -177,4 +180,3 @@ else:
                     printf("Warning: Please do not include non-ppm files.")
                     sys.exit(0)
 ```
-

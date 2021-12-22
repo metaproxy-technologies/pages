@@ -16,6 +16,27 @@ date: 2018-12-03 22:08:03
 作り込むと手間がかかりそうな部分はPCに近いRPIにやらせつつ、Arduinoは
 モーター制御に注力するというそれっぽい方針ともいえそうではある（と思いたい。。。）
 
+```mermaid
+graph TD;
+  A[Xbox 360 controller];
+  B[Chrome on mac];
+  C[RPI Camera+mjpeg streamer];
+  D[node.js + Socket.IO];
+  E[Raspberry Pi Zero W];
+  F[USB on /dev/ttyACM0];
+  G[Arduino Leonard + Adafruit Motor Shield V2];
+  H[DC Motor of カムプログラムロボット];
+
+  A --> B
+  B --> C
+  B --> D
+  C --> E
+  D --> E
+  E --> F
+  F --> G
+  G --> H
+```
+
         Xbox 360 controller
             |
           Chrome on mac(OSX)
@@ -34,27 +55,29 @@ date: 2018-12-03 22:08:03
             |
         DC Motor of カムプログラムロボット
 
-
 ## ①　Arduino LeonardからDCモータを取り敢えず動かす
+
 - AdafruitのShieldを買うだけ。すごく楽。ただ、ピンヘッダの半田付け前に、よくよくAdafruitのガイドの写真を確認すること。（ピンヘッダの取り付け位置を誤るので）
-    - [Install Adafruit Motor Shield V2 library](https://learn.adafruit.com/adafruit-motor-shield-v2-for-arduino/install-software)
+  - [Install Adafruit Motor Shield V2 library](https://learn.adafruit.com/adafruit-motor-shield-v2-for-arduino/install-software)
 - その後、Shield内のDCモータ用のM1／M2ピンをカムプログラムロボットのモータ２つの各々に繋ぐ
 - 適当にサンプルスケッチをカスタマイズして投入すればいい
 
 ## ②　RPI+ArduinoをUSBケーブルで繋ぐ　＆ 開発環境を準備する
+
 - この手順を用いる
-    - [Raspberry PiでArduino IDEを使う](/2018/12/04/201812-rpi-arduino-ide/)
+  - [Raspberry PiでArduino IDEを使う](/2018/12/04/201812-rpi-arduino-ide/)
 - なお、この時点でカムプログラムロボットのカム部分は外してしまい、RPI Zero W+Arduinoを載せてしまった
 - 給電をどうするかが悩ましかったが、結局適当な5V+1A程度のモバイルバッテリーをRPIにつなぐだけで、今の所はRPI・Arduino・DCモータに全てに給電できている。RPIといってもZero Wを使ったおかげだと思う。おそらく何処かでうまく稼働しないタイミングが来るはずなので、その時にバッテリーを強くすることにする。
 
 ## ③　暫定で、簡単制御をやってみる＆カメラ映像を配信して、カムプログラムロボットだけで探検できるようにする
+
 - Arduinoにはこんなスケッチを投入
-    - これはつまり、シリアル入力をもらったら恐る恐る前／後や右回転／左回転をするもの
+  - これはつまり、シリアル入力をもらったら恐る恐る前／後や右回転／左回転をするもの
 - RPI（ArduinoをUSBでつないだもの）へSSHログインし、ArduinoIDE（on RPI）を起動してからスケッチを投入する
 - その後、SSHのコンソールでこんな風に入力して制御を始める
-    - cu -l /dev/ttyACM0 -s 9600
-    - a を入力ー＞左回転、d ー＞右回転、wー＞前進、sー＞後退
-        - こちらの記事を見た。ありがたかった：[Raspberry PiとArduinoでシリアル通信](https://qiita.com/k_kinukawa/items/6eefb56c5c76863f7697)
+  - cu -l /dev/ttyACM0 -s 9600
+  - a を入力ー＞左回転、d ー＞右回転、wー＞前進、sー＞後退
+    - こちらの記事を見た。ありがたかった：[Raspberry PiとArduinoでシリアル通信](https://qiita.com/k_kinukawa/items/6eefb56c5c76863f7697)
 
 ```cpp
 #include <Wire.h>
@@ -192,27 +215,32 @@ void loop() {
 
 - 動くようになったので、mjpeg-streamerを入れてロボの目線から見える景色を眺めつつ、遠隔操作する
 - こちらを参考にして導入し。。。
-    - [Setup Guide: Raspberry Pi | MJPEG Streamer Install & Setup & FFMpeg Recording](https://github.com/cncjs/cncjs/wiki/Setup-Guide:-Raspberry-Pi-%7C-MJPEG-Streamer-Install-&-Setup-&-FFMpeg-Recording)
-    - [Raspberry Pi zero wでストリーミング](http://gml.blog.jp/archives/7714805.html)
+  - [Setup Guide: Raspberry Pi | MJPEG Streamer Install & Setup & FFMpeg Recording](https://github.com/cncjs/cncjs/wiki/Setup-Guide:-Raspberry-Pi-%7C-MJPEG-Streamer-Install-&-Setup-&-FFMpeg-Recording)
+  - [Raspberry Pi zero wでストリーミング](http://gml.blog.jp/archives/7714805.html)
 - こんなコマンドで起動する
+
 ```shell
 /usr/local/bin/mjpg_streamer -i "input_raspicam.so -fps 15 -q 50 -x 640 -y 480" -o "output_http.so -p 9000 -w /usr/local/share/mjpg-streamer/www"
 ```
+
 - 起動後、ブラウザでRPIの9000ポートでアクセスする
-    - http://rpihostname.local:9000/
+  - <http://rpihostname.local:9000/>
 
 ## ④　Xbox 360ゲームパッドをmacで使えるようにする
+
 - こちらのドライバを活用させてもらう
-    - [360Controller](https://github.com/360Controller/360Controller/releases)
+  - [360Controller](https://github.com/360Controller/360Controller/releases)
 
 ## ⑤　Gamepad から Arduinoまでスムーズに入力がゆくようにする
+
 この部分は次回以降に。。。
 
 ## 感想
+
 正直シリアルで恐る恐るDCモーターを制御しているだけなのでモッサリ感がすごい。しかし、カメラのおかげでまるで火星探査機を操縦している雰囲気がある。これはこれでよさそうである。
 
-
 ## そのほか参考にさせていただいたサイト
+
 - [USB端子から5ボルトを取る方法](http://tsukuru-hito.com/e3096596.html)
 - [PROGRAM AN ARDUINO UNO WITH YOUR RASPBERRY PI](https://www.raspberrypi.org/magpi/program-arduino-uno-raspberry-pi/)
 - [CONNECT RASPBERRY PI AND ARDUINO WITH SERIAL USB CABLE](https://oscarliang.com/connect-raspberry-pi-and-arduino-usb-cable/)
