@@ -42,15 +42,15 @@ code .
 
 - xclipが存在しない
   - 存在しないので導入するようにとのメッセージがvscode右下に出現します
-- WSL2上のclipboardにWindowsのclipboardの中身がコピーされない。。
+- WSL2上のclipboardにWindowsのclipboardの中身がコピーされない
   - xclipを導入しても"there is not a image in clipboard"と出力されます
 
 ```mermaid
 graph LR
-  A[A.clipboard <Windows内部>]
-  B[B.clipboard <WSL2内部>]
-  C[C.xclip]
-  D[D.pngへ保存]
+  A[clipboard　Windowsのもの]
+  B[clipboard　WSL2内部のもの]
+  C[xclip]
+  D[pngへ保存]
   A --> B
   B --> C
   C --> D
@@ -70,20 +70,8 @@ sudo apt install xclip
 
 こちらにも”解決策”があるのですが、結論から言いますとまずWindows側でクリップボード内部の画像をBase64エンコードしてからWSL2上のクリップボードへコピーしそれを一度WSL2上で画像としてデコードしてから、改めてxclipへ読み込ませます。
 
-以下のA->Bを頑張って通過させるということですね。
+WSL2のクリップボードへ、Windows側のクリップボードから頑張って画像を通過させるということですね。
 
-```mermaid
-graph LR
-  A[A.clipboard <Windows内部>]
-  B[B.clipboard <WSL2内部>]
-  C[C.xclip]
-  D[D.pngへ保存]
-  A --> B
-  B --> C
-  C --> D
-```
-
-実際にはこのようにやります
 
 ## Windows / WSL2間のクリップボードをコピーできるようにする
 
@@ -96,10 +84,10 @@ xclipが正しく（Windows側のXサーバで）稼働すればこれはでき�
 
 ## Windows側でクリップボード内部の画像をBase64エンコードしてからWSL2上のクリップボードへコピーしそれを一度WSL2上で画像としてデコードしてから、改めてxclipへ読み込ませます
 
-なんだかよくわかりませんがこういうことをやります。
+なんだかよくわかりませんがこういう操作を行い回避してみます。
 
 ```mermaid
-graph LR;
+graph TD;
   A[スクリーンショットなど画像をコピー]
   B[Powershellでその画像をBase64でテキスト化しクリップボードへ格納]
   C[格納したテキストをxselで読み出し画像に戻す]

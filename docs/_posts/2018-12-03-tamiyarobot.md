@@ -37,24 +37,6 @@ graph TD;
   G --> H
 ```
 
-        Xbox 360 controller
-            |
-          Chrome on mac(OSX)
-            |
-            |-------------------------------
-            |                              |
-        [RPI Camera+mjpeg streamer]   [node.js + Socket.IO]
-            |                              |
-            |-------------------------------
-            |
-        Raspberry Pi Zero W
-            |
-         [USB] on /dev/ttyACM0
-            |
-        Arduino Leonard + Adafruit Motor Shield V2
-            |
-        DC Motor of カムプログラムロボット
-
 ## ①　Arduino LeonardからDCモータを取り敢えず動かす
 
 - AdafruitのShieldを買うだけ。すごく楽。ただ、ピンヘッダの半田付け前に、よくよくAdafruitのガイドの写真を確認すること。（ピンヘッダの取り付け位置を誤るので）
