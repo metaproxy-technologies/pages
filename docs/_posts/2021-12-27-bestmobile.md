@@ -6,7 +6,7 @@ classes: wide
 
 ## What is best mobile desktop for Secure development.
 
-A environment to carry everywhere with ease within small bag, but has ability to access company data and good for coding, i.e easy to type many characters and moving  cursor fast.
+An environment which can be carried to everywhere with ease within small bag, but has ability to access company data and good for coding, i.e easy to type many characters and moving  cursor fast.
 
 And also, data is accessed remotely with evaluation of every data access by remote server or local data could be encrypted and be wiped when lost or stolen.
 
@@ -73,11 +73,11 @@ Here are/ tips for good deployment.
 
 If you use Onemix with Win10, UX is terrible because font quality and placement within UI still needs to be improved in unacceptable level in this small size display. But UX is dramatically improved when you use it with Ubuntu. Recent Ubuntu UI is beautiful and easy to read characters. Small CPU power consumption is also attractive.
 
-Still iPad Mini Gen6 exceeds in every aspect, especially in security, but the lack of **Allow key** make this setup more attractive.
+Still iPad Mini Gen6 exceeds in every aspect, especially in security, but the lack of **Arrow key** make this setup more attractive.
 
 With Win10, Font of UI is unacceptable, as characters is hard to read, so font size need to be bigger compared to other setups, i.e. there is smaller working area. CPU concurrently running nearly 90%, so FAN noise and thermal is bad.
 
-I need to add an important comment, the caveats above is not acceptable, moreover I did not notice using normal sized mobile PCs and Desktop PCs. 7inch sized small PC and trying to use it as business makes this perspective as "problem".
+I need to add an important comment, the caveats above is acceptable, moreover I even did not notice them with normal sized mobile PCs and Desktop PCs. 7inch sized small PC and trying to use it as business makes this perspective as "problem".
 
 * Deployment example.
   * Disk is encrypted during installation,
