@@ -1,10 +1,8 @@
-# AAA
-
-<https://lactoria.web.fc2.com/pro3-1euc.html>
-
-<https://lactoria.web.fc2.com/pro3-2euc.html>
-
-<https://nobu-macsuzuki.hatenablog.com/entry/2021/03/13/213705>
+---
+title: "Secure Development Model to evaluate best mobile."
+date: 2021-12-28
+classes: wide
+---
 
 Sometimes I think I will face a doom's day that my or my client's data is exposed to ummanaged environment. i.e. the doom's day of information leakage.
 
@@ -201,7 +199,3 @@ graph LR;
 ## Tentative conclution
 
 There is no complete security, and security should be implemented as Swiss-Cheese model, but these fact does not mean we could let security functions as it is, as scattered as like Swiss-Cheese. I think we need to build some level of design of security, check periodically and fix periodically to direction of complete security balaced with UX.
-
-
-
-
