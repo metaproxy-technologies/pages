@@ -62,9 +62,9 @@ Best if we had **Arrow** key. Good OSK especially in vertical mode, Steve I pray
       * WorkingCopy
       * iSH
 
-Here are/ tips for good deployment.
+Here are tips for good deployment.
 
-* **Before you by iPad**, get DUNs number and apply Apple business manager, then **buy iPad with SIM model** **from Apple store using ABM account**. Company purchased devices with SIM are easily managed by MDM.
+* **Before you buy iPad**, get DUNs number and apply Apple business manager, then **buy iPad with SIM model** **from Apple store using ABM account**. Company purchased devices with SIM are easily managed by MDM.
 * XXX
 * XXX
 * XXX
