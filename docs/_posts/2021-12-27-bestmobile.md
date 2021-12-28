@@ -4,13 +4,13 @@ date: 2021-12-27
 classes: wide
 ---
 
-## What is best mobile desktop for Secure development.
+## What is best mobile desktop for Secure development
 
 An environment which can be carried to everywhere with ease within small bag, but has ability to access company data and good for coding, i.e easy to type many characters and moving  cursor fast.
 
 And also, data is accessed remotely with evaluation of every data access by remote server or local data could be encrypted and be wiped when lost or stolen.
 
-## The candidate.
+## The candidate
 
 I chose 7inch - 8inch terminals are the best.
 
@@ -18,7 +18,7 @@ I chose 7inch - 8inch terminals are the best.
 * (Ubuntu) Onemix 3s with Ubuntu.
 * (Android) Astro Slide 5G.
 
-## iPad Mini 6th Gen.
+## iPad Mini 6th Gen
 
 Good environment to access business data. Good environment for coding.
 
@@ -27,7 +27,7 @@ Best if we had **Arrow** key. Good OSK especially in vertical mode, Steve I pray
 * Deployment example.
   * Deploy with AppleBusinessManager+Intune.
   * Access company data of daily use with managed MSOffice.
-  * Use Windows 365 desktop with RDClient for secured data. 
+  * Use Windows 365 desktop with RDClient for secured data.
   * Code using WorkingCopy+Texastic.
 
 * Detailed evaluation
@@ -40,17 +40,17 @@ Best if we had **Arrow** key. Good OSK especially in vertical mode, Steve I pray
       * Search lost device: Find My
     * Remote data protection
       * Limit use of company data within managed Apps.
-          * O365 apps
-          * Web apps on MS Edge 
-          * WVD/AVD client for iOS
+        * O365 apps
+        * Web apps on MS Edge
+        * WVD/AVD client for iOS
     * Need improvement
       * RD client for iOS: touch offset glitch
         * Touch offcet is different approx. 5-10px from actual location, I have proposed improvement in feedback hub, but...
       * Expecting more managed apps:
-          * Slack
-          * Textastic
-          * WorkingCopy
-          * iSH
+        * Slack
+        * Textastic
+        * WorkingCopy
+        * iSH
   * Functionality
     * Hardware
       * Reliable, robust form factor
@@ -69,7 +69,7 @@ Here are/ tips for good deployment.
 * XXX
 * XXX
 
-## Onemix 3s with Ubuntu.
+## Onemix 3s with Ubuntu
 
 If you use Onemix with Win10, UX is terrible because font quality and placement within UI still needs to be improved in unacceptable level in this small size display. But UX is dramatically improved when you use it with Ubuntu. Recent Ubuntu UI is beautiful and easy to read characters. Small CPU power consumption is also attractive.
 
@@ -101,7 +101,6 @@ I need to add an important comment, the caveats above is acceptable, moreover I 
       * ??? - Slack
       * **vscode**
 
-
 * tasks to complete evaluation (i.e. candidate of Cons.)
   * [ ] WVD/AVD access using some rdp client
   * [ ] Wype locally or remotely
@@ -113,14 +112,12 @@ I need to add an important comment, the caveats above is acceptable, moreover I 
     * [ ] Embed SIM in M.2 Slot
     * [ ] Extending battery life (Approx. 2.5hrs ... )
 
-
 Here are tips for good deployment.
 
 * Screen inverted
   * -> use "xrandr -o left"
 * OSK(On screen keyboard) appears everytime I have touched display
   * -> disable it using gnome extension <https://askubuntu.com/questions/965250/on-screen-keyboard-popping-up-whenever-i-touch-screen>
-
 
 ## Astro Slide 5G
 
