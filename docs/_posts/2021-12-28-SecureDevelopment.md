@@ -144,7 +144,7 @@ graph LR;
   A --> D
   B --> C
   C -- CI/CD --> F
-  G -- Power Automate --> F
+  G -- Test Automation --> F
 
   subgraph Developer mobile;
     X
