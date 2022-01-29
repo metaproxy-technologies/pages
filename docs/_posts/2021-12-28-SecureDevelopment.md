@@ -175,7 +175,7 @@ graph LR;
   Z --> D
   Z --> E
   C -- CI/CD --> F
-  G -- Power Automate --> F
+  G -- Test Automation --> F
 
   subgraph Developer mobile;
     Y
