@@ -5,6 +5,33 @@ header:
   image: ./assets/logo.jpeg
 ---
 
+### Welcome!
+
+This is the page of Metaproxy technologies (Nissei Seisakusho Co., Ltd.), which is engaged in system development and digital workplace construction.
+
+Please feel free to contact us via DM on Twitter for any job orders or problems you may have.
+
+<https://twitter.com/rtree>
+　
+### Achievements to date
+
+Our company was founded in 2020 by a representative who has experience in system construction, PM, and consulting for major Japanese financial institutions at a system integrator. We specialize in providing middle management services between management and members.
+
+Our main achievements since the establishment of the company include the following
+- PM for management accounting system construction project
+- PM for the production of smart phone applications for educational purposes
+- Remote work environment construction with security assurance
+
+
+We believe that the key to system construction is organization. We take pleasure in designing the most appropriate systems and human resources to improve the capabilities of our clients' organizations to achieve their business goals.
+
+Our English name "Meta of Proxy" is derived from our belief that we are more than a proxy, we are an agent.
+We realize what our clients want at a level they have not yet imagined.
+
+If you are an executive who wants to develop a system that focuses on business improvement, if you are a developer who has trouble setting appropriate goals for development and scheduling, or if you feel like you are always working in the white space of a task while everyone else is watching, we would like to hear from you.
+
+---
+
 ### いらっしゃいませ
 
 システム開発、デジタルワークプレイスの構築を行っておりますMetaproxy technologies(日昇製作所)のページです。
