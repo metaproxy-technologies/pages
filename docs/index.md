@@ -7,7 +7,7 @@ header:
 
 ### Welcome!
 
-This is the page of Metaproxy technologies (Nissei Seisakusho Co., Ltd.), which is engaged in system development and digital workplace construction.
+This is the page of Metaproxy technologies (Nissho Seisakusho), which is engaged in system development and digital workplace construction.
 
 Please feel free to contact us via DM on Twitter for any job orders or problems you may have.
 
