@@ -15,10 +15,10 @@ Please feel free to contact us via DM on Twitter for any job orders or problems 
 　
 ### Achievements to date
 
-Our company was founded in 2020 by a representative who has experience in system construction, PM, and consulting for major Japanese financial institutions at a system integrator. We specialize in providing middle management services between management and members.
+Our company was founded in 2020 by a representative who has experience in SRE, PM and system consulting for major Japanese financial institutions. We specialize in providing middle management services between management and members.
 
 Our main achievements since the establishment of the company include the following
-- PM for management accounting system construction project
+- PM for management accounting system project
 - PM for the production of smart phone applications for educational purposes
 - Remote work environment construction with security assurance
 
