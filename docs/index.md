@@ -30,6 +30,11 @@ We realize what our clients want at a level they have not yet imagined.
 
 If you are an executive who wants to develop a system that focuses on business improvement, if you are a developer who has trouble setting appropriate goals for development and scheduling, or if you feel like you are always working in the white space of a task while everyone else is watching, we would like to hear from you.
 
+### Member profile
+
+Please refer following:
+- Tomohiko Araki <https://www.linkedin.com/in/arakitomohiko/>
+
 ---
 
 ### いらっしゃいませ
@@ -64,6 +69,7 @@ If you are an executive who wants to develop a system that focuses on business i
 | 設立         | 2020年                |
 | 代表         | 荒木　智彦              |
 |             |  登録情報セキュリティスペシャリスト（登録番号018850）|
+|             |  <https://www.linkedin.com/in/arakitomohiko/>|
 | 参加団体      | 東京商工会議所会員     |
 
 
