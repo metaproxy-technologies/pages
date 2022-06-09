@@ -36,6 +36,10 @@ This page is just for reference. Things are accumulated by each attack vector. I
 
 - Triggerring doom loop
   - UST <https://twitter.com/OnChainWizard/status/1524123935570382851>
+<<<<<<< HEAD
+    - although actually UST has fallen as intended by design
+=======
     - although actually UST has fallen as acted by design
   - Nansen's impressive on chain analysis <https://www.nansen.ai/research/on-chain-forensics-demystifying-terrausd-de-peg>
+>>>>>>> 58c7ae40e068914ffe87fc36d161d22d956f14c3
 
