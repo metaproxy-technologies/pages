@@ -1,5 +1,5 @@
 ---
-title: "（非推奨）vscodeのpaste image extensionをWSL2で使う"
+title: "vscodeのpaste image extensionをWSL2で使う（非推奨）"
 date: 2021-12-22
 classes: wide
 ---
