@@ -1,5 +1,5 @@
 ---
-title: "(in progress) Ideal mobile desktop for Secure development."
+title: "Ideal mobile desktop for Secure development."
 date: 2021-12-27
 classes: wide
 ---
