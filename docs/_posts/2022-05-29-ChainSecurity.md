@@ -27,7 +27,7 @@ This page is just for reference. Things are accumulated by each attack vector. I
   - Incidents
     - Deus DAO <https://cryptoslate.com/deus-dao-suffers-another-flash-loan-exploit-loses-over-16m/>
   - Counter act
-    - Check timestamp <xxx>
+    - Check timestamp
     - Check result of proposal, in simulated environment
       - Uniswap <https://uniswap.org/blog/governance-seatbelt>
       - Aave Seatbelt <https://governance.aave.com/t/bgd-release-aave-seatbelt/8310>
