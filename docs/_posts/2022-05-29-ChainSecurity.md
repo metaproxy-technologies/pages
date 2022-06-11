@@ -31,6 +31,8 @@ This page is just for reference. Things are accumulated by each attack vector. I
     - Check result of proposal, in simulated environment
       - Uniswap <https://uniswap.org/blog/governance-seatbelt>
       - Aave Seatbelt <https://governance.aave.com/t/bgd-release-aave-seatbelt/8310>
+- Others
+  - A Guide to Designing Effective NFT Launches <https://www.paradigm.xyz/2021/10/a-guide-to-designing-effective-nft-launches#unbundling-nft-launches>
 
 ## Liquidity
 
