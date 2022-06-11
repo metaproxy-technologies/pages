@@ -1,7 +1,19 @@
 ---
-title: "Best country for crypto protocol"
-date: 2022-06-11
+title: "Secure Development Model to evaluate best mobile."
+date: 2022-06-12
 classes: wide
 ---
 
-Crypto is new, and projects/protocols need to consider how to fit their activities into existing regulatons, tax and any legal related things to do public goods.
+Sometimes I think I will face a doom's day that my or my client's data is exposed to ummanaged environment. i.e. the doom's day of information leakage.
+
+There are many solutions, but as far as I have investigated, there should be some model or design to integrate them as Model, because all goals for preventing information leakage leads to following principles and each functionalities need to be evaluated for:
+
+* Access to data should be remote, with no local cache and authorized every time an entity tries to access it.
+  * in order to audit every access or to revoke access right when the entity lose access rights to data
+* If data is not remote and stored locally, data should be protected securely
+  * by enabling remote/local wipe for unauthorized access
+  * by encrypted
+* If data is local and stored unprotectedly, it should be as close as public information.
+* If data is local and stored umprotectedly but still it should be highly private, it should be protected physically.
+
+To establish these kind of security, I am considering some models.
