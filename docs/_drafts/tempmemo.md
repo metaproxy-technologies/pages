@@ -1,207 +1,36 @@
-# AAA
+I think ultimately, whether you are doing right thing for public goods or not, is the only things for you to consider, but less friction with jurisdiction means your project/protocol will be well accepted from vast majority people and secure easy continuity of activities, so I think I need to gather as many information as possible on which country is best, but failed to found out consolidated information of best practice, while how to consider exists.
 
-<https://lactoria.web.fc2.com/pro3-1euc.html>
+That is why I am starting to accumulate information here.
+I am going to keep these info. up-to-date as possible, but please notify me when you have found flaws. Sharing information is always welcomed.
 
-<https://lactoria.web.fc2.com/pro3-2euc.html>
+## Legal entity of famous projects
 
-<https://nobu-macsuzuki.hatenablog.com/entry/2021/03/13/213705>
+When it comes to legal entity, crypto protocols need to consider what kind of entity is best for them. As far as I have seen, there is 2 types of history of groups that serve for protocols.
 
-Sometimes I think I will face a doom's day that my or my client's data is exposed to ummanaged environment. i.e. the doom's day of information leakage.
+* 2 types of groups that serve for protocols
+  * Corporation becomes DAO.
+  * DAO needs legal entity.
 
-There are many solutions, but as far as I have investigated, there should be some model or design to integrate them as Model, because all goals for preventing information leakage leads to following principles and each functionalities need to be evaluated for:
+Former is going to become DAO for diversificaiton and transforms their legal entity. Latter is going to establish legal entity for coverting all or some part of their activities.
 
-* Access to data should be remote, with no local cache and authorized every time an entity tries to access it.
-  * in order to audit every access or to revoke access right when the entity lose access rights to data
-* If data is not remote and stored locally, data should be protected securely
-  * by enabling remote/local wipe for unauthorized access
-  * by encrypted
-* If data is local and stored unprotectedly, it should be as close as public information.
-* If data is local and stored umprotectedly but still it should be highly private, it should be protected physically.
+Most information I have collected is from Privacy Policy or Terms of Use, so I guess these legal entity is for B2C (i.e. facing protocol-to-people), so probability is high to exist another entity for B2B.
 
-To establish these kind of security, I am considering some models.
+## Voices from people lives in
 
-## Secure Development Model X
+Bankless held good Q&A.
 
-I like the old days of information security, that everything is stored within a company properties,but currently this model should be applied to most valuable information, such as seed phase of crypt that the information itself has massive value.
-
-```mermaid
-graph LR;
-  A[Developer terimnal];
-  B[Host computers];
-
-  A -- private cables --> B
-
-  subgraph A company;
-    subgraph Developer Office;
-      A
-    end
-    subgraph Private DC;
-      B
-    end
-  end
-```
-
-Once upon a time, everything is stored in large local computer, which is segragated by external network and protected by brick and mortar and powerful allies.
-
-Then gradually data is stored prvate DCs and DCs are accessed from private cupper cables.
-
-Currently we have our information in Cloud, i.e. public DCs protected by authentication/authorization and access it from mobile devices, i.e. portable computers which is also protected by authentication/authorization.
-
-This model is not only for large host computers, but also for everything we have as human, and historically comfirmed model from a dawn of culture, highly secure, but if we continue to apply this model to computer, it means giving up to improve productivity.
-
-## Secure Development Model A
-
-Model for PC/Mac/Linux or managed-browsers in iOS/Android.
-
-```mermaid
-graph LR;
-  A[vscode];
-  B[github];
-  C[Test Server];
-  H[Test client];
-
-  A -- Github Remote ext. --> B
-  B -- CI/CD --> C
-  H -- Test Automation --> C
-
-  subgraph Developer team;
-    A
-  end
-  subgraph QA team;
-    H
-  end
-  subgraph Cloud;
-    B
-    C
-  end
-```
-
-* Design of Secure Development Model A
-  * Fits to internal workers
-  * vscode with github remote ext.
-    * no local data
-      * Except for uncommit changes. They are tentatively stored in local, but they will be deleted upon commit.
-      * Path: *~/.config/Code/User/globalStorage/github.remotehub/72bb7349426f41243db756b4690af534/changestore/vscode-vfs-github/*
-  * All setup is forced by MDM managed or sudited by checking script.
-
-## Secure Development Model B
-
-Model for PC/Mac or managed-browsers in iOS/Android. We are unable to use Linux as lack of good VDI client. ( I am failed to pickup client for WVD/AVD/Cloud PC/Windows 365. )
-
-```mermaid
-graph LR;
-  A[RD Client];
-  B[VDI];
-  D[github]
-  E[vscode]
-  C[Test Server];
-  H[Test client];
-
-  A -- RDP --> B
-  B --> E
-  E --> D
-  D -- CI/CD --> C
-  H -- Test Automation --> C
-
-  subgraph Developer team;
-    A
-  end
-  subgraph QA team;
-    H
-  end
-  subgraph Cloud;
-    B
-    D
-    E
-    C
-  end
-```
-
-* Design of Secure Development Model B
-  * Fits to external workers.
-  * no local data
-  * All setup is forced by MDM managed or sudited by checking script.
-
-## Secure Development Model C
-
-Model for iOS/Android. Basic concept is the same, managed apps which are deployed by MDM is recommended, because they supports many restrictions to prevent data access without periodically authentication check. But as for protection of edge of mobile, there are many and scatterd functions and apps, so protecting local data and local cache and periodical check of authentication of remote data access is **very tough challenge** to do. So I'd recomment this model is used to access limited range of information, which will not impact run-the-business of company.
-
-This is for iOS.
-
-```mermaid
-graph LR;
-  X[iOS]
-  Y[MSEdge];
-  A[Managed apps];
-  B[Unmanaged-apps];
-  C[github]
-  D[MS365]
-  F[Test Server];
-  G[Test client];
-
-  X --> A
-  X --> B
-  X --> Y
-  Y --> C
-  A --> D
-  B --> C
-  C -- CI/CD --> F
-  G -- Power Automate --> F
-
-  subgraph Developer mobile;
-    X
-  end
-  subgraph QA team;
-    G
-  end
-  subgraph Cloud;
-    C
-    D
-  end
-```
-
-This is for Android.
-
-```mermaid
-graph LR;
-  Y[Android]
-  Z[Android Enterprise i.e. managed apps]
-  C[github]
-  D[MS365]
-  E[gSuite]
-  F[Test Server];
-  G[Test client];
-
-  Y --> Z
-  Z --> C
-  Z --> D
-  Z --> E
-  C -- CI/CD --> F
-  G -- Power Automate --> F
-
-  subgraph Developer mobile;
-    Y
-    Z
-  end
-  subgraph QA team;
-    G
-  end
-  subgraph Cloud;
-    C
-    D
-    E
-  end
-```
-
-* Design of Secure Development Model C
-  * Fits to mobile workers to do instant work, less important work.
-  * Some data is remote, some are local.
-  * Some setup is forced by MDM managed or sudited by checking script.
-
-## Tentative conclution
-
-There is no complete security, and security should be implemented as Swiss-Cheese model, but these fact does not mean we could let security functions as it is, as scattered as like Swiss-Cheese. I think we need to build some level of design of security, check periodically and fix periodically to direction of complete security balaced with UX.
+Where's the best place to live for crypto?
+<https://newsletter.banklesshq.com/p/wheres-the-best-place-to-live-for/comments?s=r>
 
 
 
-
+| # | Protocol        | Legal entity                         | Country resides        | Reference                                                                                                              | date of confirmation |
+|---|-----------------|--------------------------------------|------------------------|------------------------------------------------------------------------------------------------------------------------|----------------------|
+| 1 | Babylon Finance | Babylon DAO Inc.                     | Panama                 | https://www.babylon.finance/terms                                                                                      | 2022/6/11            |
+| 2 | Aave            | Avara UI Labs Ltd                    | Cayman Islands         | https://aave.com/privacy-policy/                                                                                       | 2022/6/11            |
+| 3 | MakerDAO        | Maker Ecosystem Growth Holdings, Inc | Cayman Islands         | https://makerdao.com/en/privacy/                                                                                       | 2022/6/11            |
+| 4 | MakerDAO        | MakerDAO Bank Participation Trust    | Delaware, US           | https://thedefiant.io/makerdao-bank-deal-dai-loans/                                                                    | 2022/6/11            |
+| 5 | Curve           | None (probably)                      | -                      | https://gov.curve.fi/tos                                                                                               | 2022/6/11            |
+| 6 | Maple Finance   | Maple Labs Pty Ltd                   | Australia              | https://maplefinance.gitbook.io/maple/additional-links/privacy-policy#information-collection-and-tracking-technologies | 2022/6/11            |
+| 7 | CityDAO         | CityDAO LLC                          | Wyoming, US            | https://opencorporates.com/companies/us_wy/2021-001023598                                                              | 2022/6/11            |
+| 8 | CitaDAO         | CitaDAO Protocol Limited             | British Virgin Islands | https://docs.citadao.io/intro/privacy#what-information-we-collect                                                      | 2022/6/11            |
