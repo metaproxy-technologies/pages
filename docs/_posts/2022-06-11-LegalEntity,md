@@ -1,0 +1,42 @@
+---
+title: "Which country is best for crypto business/protocol/project"
+date: 2022-06-11
+classes: wide
+---
+
+Crypto is new, and projects/protocols need to consider how to fit their activities into existing regulatons, tax and any legal related things to do public goods.
+
+I think ultimately, whether you are doing right thing for public goods or not, is the only things for you to consider, but less friction with jurisdiction means your project/protocol will be well accepted from vast majority people and secure easy continuity of activities, so I think I need to gather as many information as possible on which country is best, but failed to found out consolidated information of best practice, while how to consider exists.
+
+That is why I am starting to accumulate information here.
+I am going to keep these info. up-to-date as possible, but please notify me when you have found flaws. Sharing information is always welcomed.
+
+# Legal entity of famous projects
+
+When it comes to legal entity, crypto protocols need to consider what kind of entity is best for them. As far as I have seen, there is 2 types of history of groups that serve for protocols.
+
+* 2 types of groups that serve for protocols
+  * Corporation becomes DAO.
+  * DAO needs legal entity.
+
+Former is going to become DAO for diversificaiton and transforms their legal entity. Latter is going to establish legal entity for coverting all or some part of their activities.
+
+Most information I have collected is from Privacy Policy or Terms of Use, so I guess these legal entity is for B2C (i.e. facing protocol-to-people), so probability is high to exist another entity for B2B.
+
+| # | Protocol        | Legal entity                         | Country resides        | Reference                                                                                                              | date of confirmation |
+|:-:|-----------------|--------------------------------------|------------------------|------------------------------------------------------------------------------------------------------------------------|:--------------------:|
+| 1 | Babylon Finance | Babylon DAO Inc.                     | Panama                 | https://www.babylon.finance/terms                                                                                      |       2022/6/11      |
+| 2 | Aave            | Avara UI Labs Ltd                    | Cayman Islands         | https://aave.com/privacy-policy/                                                                                       |       2022/6/11      |
+| 3 | MakerDAO        | Maker Ecosystem Growth Holdings, Inc | Cayman Islands         | https://makerdao.com/en/privacy/                                                                                       |       2022/6/11      |
+| 4 | MakerDAO        | MakerDAO Bank Participation Trust    | Delaware, US           | https://thedefiant.io/makerdao-bank-deal-dai-loans/                                                                    |       2022/6/11      |
+| 5 | Curve           | None (probably)                      | -                      | https://gov.curve.fi/tos                                                                                               |       2022/6/11      |
+| 6 | Maple Finance   | Maple Labs Pty Ltd                   | Australia              | https://maplefinance.gitbook.io/maple/additional-links/privacy-policy#information-collection-and-tracking-technologies |       2022/6/11      |
+| 7 | CityDAO         | CityDAO LLC                          | Wyoming, US            | https://opencorporates.com/companies/us_wy/2021-001023598                                                              |       2022/6/11      |
+| 8 | CitaDAO         | CitaDAO Protocol Limited             | British Virgin Islands | https://docs.citadao.io/intro/privacy#what-information-we-collect                                                      |       2022/6/11      |
+
+# Voices from people lives in
+
+Bankless held good Q&A.
+
+Where's the best place to live for crypto?
+<https://newsletter.banklesshq.com/p/wheres-the-best-place-to-live-for/comments?s=r>
