@@ -4,16 +4,8 @@ date: 2022-06-12
 classes: wide
 ---
 
-Sometimes I think I will face a doom's day that my or my client's data is exposed to ummanaged environment. i.e. the doom's day of information leakage.
+## What is best mobile desktop for Secure development
 
-There are many solutions, but as far as I have investigated, there should be some model or design to integrate them as Model, because all goals for preventing information leakage leads to following principles and each functionalities need to be evaluated for:
+An environment which can be carried to everywhere with ease within small bag, but has ability to access company data and good for coding, i.e easy to type many characters and moving  cursor fast.
 
-* Access to data should be remote, with no local cache and authorized every time an entity tries to access it.
-  * in order to audit every access or to revoke access right when the entity lose access rights to data
-* If data is not remote and stored locally, data should be protected securely
-  * by enabling remote/local wipe for unauthorized access
-  * by encrypted
-* If data is local and stored unprotectedly, it should be as close as public information.
-* If data is local and stored umprotectedly but still it should be highly private, it should be protected physically.
-
-To establish these kind of security, I am considering some models.
+And also, data is accessed remotely with evaluation of every data access by remote server or local data could be encrypted and be wiped when lost or stolen.
