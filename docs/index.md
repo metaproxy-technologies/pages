@@ -68,7 +68,7 @@ Please refer following:
 |             | Metaproxy technologies|
 | 設立         | 2020年                |
 | 代表         | 荒木　智彦              |
-|             |  登録情報セキュリティスペシャリスト（登録番号018850）|
+|             |  情報処理安全確保支援士（登録番号018850）|
 |             |  <https://www.linkedin.com/in/arakitomohiko/>|
 | 参加団体      | 東京商工会議所会員     |
 
