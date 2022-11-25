@@ -69,6 +69,7 @@ Please refer following:
 | 設立         | 2020年                |
 | 代表         | 荒木　智彦              |
 |             |  情報処理安全確保支援士（登録番号018850）|
+|             |  基本情報技術者、応用情報技術者         |
 |             |  <https://www.linkedin.com/in/arakitomohiko/>|
 | 参加団体      | 東京商工会議所会員     |
 
