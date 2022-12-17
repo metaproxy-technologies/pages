@@ -51,6 +51,7 @@ OSError: [Errno -9998] Invalid number of channels
 ```
 
 Try this:
+
 ```python
 import pyaudio
 import wave 
@@ -64,10 +65,12 @@ def main():
 if __name__ == '__main__':
     main()
 ```
+
 (Quoted from:https://algorithm.joho.info/programming/python/pyaudio-device-index/)
 
 I guess in your output, you will see index number with maxInpurChennels>=1.
 That's the number of indexes you need to use.
+
 ```bash
 {'index': 9, 'structVersion': 2, 'name': 'default', 'hostApi': 0, 'maxInputChannels': 32, 'maxOutputChannels': 32, 'defaultLowInputLatency': 0.008707482993197279, 'defaultLowOutputLatency': 0.008707482993197279, 'defaultHighInputLatency': 0.034829931972789115, 'defaultHighOutputLatency': 0.034829931972789115, 'defaultSampleRate': 44100.0}
 ```
@@ -77,6 +80,7 @@ That's the number of indexes you need to use.
 
 Almost done. Change the dev_index in the following code and run.
 You'll see a wav file so confirm it includes your voice of Wow!
+
 ```python
 import pyaudio
 import wave
@@ -118,10 +122,12 @@ wavefile.setframerate(samp_rate)
 wavefile.writeframes(b''.join(frames))
 wavefile.close()
 ```
+
  (Quoted from: <https://makersportal.com/blog/2018/8/23/recording-audio-on-the-raspberry-pi-with-python-and-a-usb-microphone>)
 
 
 ## Some more tips.
+
 I am going to add. If you have questions, please DM me on twitter.
 <https://twitter.com/rtree>
 
