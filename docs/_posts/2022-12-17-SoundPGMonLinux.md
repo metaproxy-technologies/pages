@@ -66,7 +66,7 @@ if __name__ == '__main__':
     main()
 ```
 
-(Quoted from:https://algorithm.joho.info/programming/python/pyaudio-device-index/)
+(Quoted from: <https://algorithm.joho.info/programming/python/pyaudio-device-index/>)
 
 I guess in your output, you will see index number with maxInpurChennels>=1.
 That's the number of indexes you need to use.
