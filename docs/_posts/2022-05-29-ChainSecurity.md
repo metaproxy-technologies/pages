@@ -15,8 +15,7 @@ This page is just for reference. Things are accumulated by each attack vector. I
   - You are unaware when/whether your key compromized.Key diversification is plus for lost-proof.
     - it is prone to exploit(for SW) and
     - prone to steal  (for HW)
-- Design
-  - Gnosis safe
+
 
 ## Smart Contract
 
