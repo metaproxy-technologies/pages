@@ -4,6 +4,27 @@ date: 2022-06-11
 classes: wide
 ---
 
+## Liquidation
+
+```mermaid
+graph TD;
+  A[Bank account]
+  B[CSV]
+
+  A -- premium --> B -- borrow --> L --> A
+
+  subgraph Contractor's bank
+    A
+    L[Contractual loan]
+  end
+  subgraph Insurance co.
+    L
+    subgraph Policy
+      B
+    end
+  end
+```
+
 
 ## Liquidation
 
