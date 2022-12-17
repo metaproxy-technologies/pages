@@ -38,6 +38,16 @@ ALSA lib pcm_oss.c:377:(_snd_pcm_oss_open) Unknown field port
 ALSA lib pcm_usb_stream.c:486:(_snd_pcm_usb_stream_open) Invalid type for card
 ALSA lib pcm_usb_stream.c:486:(_snd_pcm_usb_stream_open) Invalid type for card
 ALSA lib pcm_dmix.c:1089:(snd_pcm_dmix_open) unable to open slave
+Expression 'parameters->channelCount <= maxChans' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 1514
+Expression 'ValidateParameters( inputParameters, hostApi, StreamDirection_In )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 2818
+Traceback (most recent call last):
+  File "YOURCODE.py", line 15, in <module>
+    stream = audio.open(format = form_1,rate = samp_rate,channels = chans, \
+  File "/usr/local/lib/python3.8/dist-packages/pyaudio.py", line 754, in open
+    stream = Stream(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/pyaudio.py", line 445, in __init__
+    self._stream = pa.open(**arguments)
+OSError: [Errno -9998] Invalid number of channels
 ```
 
 Try this:
