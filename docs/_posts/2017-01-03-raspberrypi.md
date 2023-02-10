@@ -1,6 +1,6 @@
 ---
 title: "raspberry pi cheat sheet"
-date: 2017-01-01
+date: 2017-01-03
 ---
 
 Raspberry Pi利用開始時に実施することあれこれをとりまとめてゆきます
