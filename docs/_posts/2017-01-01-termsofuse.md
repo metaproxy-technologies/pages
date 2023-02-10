@@ -10,21 +10,21 @@ permalink: /termsofuse/
 Welcome to Website/Product/Service, operated by Tomohiko Araki. By using this this, you agree to the following terms and conditions:
 
 Use of Website/Product/Service
-You are granted a limited, non-exclusive, non-transferable, and revocable license to access and use this website/Product/Service for personal, non-commercial purposes only. You agree not to use this website/Product/Service for any illegal or unauthorized purpose.
+You are granted a limited, non-exclusive, non-transferable, and revocable license to access and use this Website/Product/Service for personal, non-commercial purposes only. You agree not to use this Website/Product/Service for any illegal or unauthorized purpose.
 
 Intellectual Property
-The content on this website/Product/Service, including but not limited to text, software, photographs, graphics, images, and logos, is the property of Tomohiko Araki or its licensors and is protected by copyright and trademark laws. You agree not to copy, distribute, modify, or create derivative works based on the content of this website/Product/Service without express written consent from Tomohiko Araki.
+The content on this Website/Product/Service, including but not limited to text, software, photographs, graphics, images, and logos, is the property of Tomohiko Araki or its licensors and is protected by copyright and trademark laws. You agree not to copy, distribute, modify, or create derivative works based on the content of this Website/Product/Service without express written consent from Tomohiko Araki.
 
 Disclaimer of Warranties
-This website/Product/Service is provided on an "as is" and "as available" basis without any warranties of any kind, either express or implied. Tomohiko Araki does not guarantee the accuracy, completeness, or timeliness of the content on this website/Product/Service.
+This Website/Product/Service is provided on an "as is" and "as available" basis without any warranties of any kind, either express or implied. Tomohiko Araki does not guarantee the accuracy, completeness, or timeliness of the content on this Website/Product/Service.
 
 Limitation of Liability
-Tomohiko Araki shall not be liable for any damages arising from your use of this website/Product/Service, including but not limited to direct, indirect, incidental, special, or consequential damages.
+Tomohiko Araki shall not be liable for any damages arising from your use of this Website/Product/Service, including but not limited to direct, indirect, incidental, special, or consequential damages.
 
 Changes to Terms of Use
-Tomohiko Araki reserves the right to modify these Terms of Use at any time without prior notice. Your continued use of this website/Product/Service after any changes have been made constitutes your acceptance of the modified terms.
+Tomohiko Araki reserves the right to modify these Terms of Use at any time without prior notice. Your continued use of this Website/Product/Service after any changes have been made constitutes your acceptance of the modified terms.
 
-By using this website/Product/Service, you agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use this website/Product/Service.
+By using this Website/Product/Service, you agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use this Website/Product/Service.
 
 ## 利用規約
 
