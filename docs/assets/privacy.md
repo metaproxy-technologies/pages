@@ -6,7 +6,6 @@ permalink: /privacy/
 
 ## Privacy Policy
 
-```bash
 This website, https://metaproxy.co, is operated by Tomohiko Araki. This privacy policy outlines the types of information collected by this website and how the information is used.
 
 The website is hosted on Github Pages, and as such, the general privacy policy of Github Pages applies.
@@ -19,12 +18,10 @@ This website does not share any information with third parties, however, in the 
 As the operator of this website is a Japanese national, the website strives to protect data based on the laws applicable to Japanese nationals.
 
 This privacy policy was generated based on these conditions.
-```
 
 
 ## プライバシーポリシー
 
-```bash
 このWebサイトはTomohiko Arakiが運営しています。このプライバシーポリシーは収集する情報の種類や取り扱いについて明記したものです。
 
 このWebサイトはGithub Pagesを使用して提供されています。Github Pagesには一般的なプライバシーポリシーがありますので、このサイトで収集されるデータについてはGithub Pagesのプライバシーポリシーに準拠します。
@@ -37,4 +34,3 @@ This privacy policy was generated based on these conditions.
 このWebサイトの所有者は日本国籍であり、日本国籍の人物が準拠すべき根拠法に基づきデータを保護します。具体的には、個人情報の保護に関し「個人情報の保護に関する法律」（通称「個人情報保護法」）に準拠し、また、一般的な情報セキュリティに関し「情報セキュリティー推進法」に準拠します。
 
 このプライバシーポリシーは予告なしに変更されることがあります。最新のプライバシーポリシーについては常にこのWebサイトをご確認ください。
-```
