@@ -1,6 +1,7 @@
 ---
 title: "Privacy Policy /  プライバシーポリシー"
 date: 2023-02-10 16:00:00
+permalink: /privacy/
 ---
 
 ## Privacy Policy
