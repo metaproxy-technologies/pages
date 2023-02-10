@@ -74,4 +74,4 @@ Please refer following:
 |             |  Alcatel-Lucent Certified Field Expert (OmniPCX Enterprise R9) |
 |             |  <https://www.linkedin.com/in/arakitomohiko/>|
 | 参加団体      | 東京商工会議所会員     |
-| 　　　　      | 電子フロンティア財団     |
+| 　　　　      | Electronic Frontier Foundation |
