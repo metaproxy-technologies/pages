@@ -70,6 +70,9 @@ Please refer following:
 | 代表         | 荒木　智彦              |
 |             |  情報処理安全確保支援士（登録番号018850）|
 |             |  基本情報技術者、応用情報技術者         |
+|             |  宅地建物取引士試験合格         |
+|             |  ビル経営管理主任         |
+|             |  小規模不動産特定共同事業　業務管理者講習　修了         |
 |             |  VMware Certified Professional (Desktop Virtualization) |
 |             |  Alcatel-Lucent Certified Field Expert (OmniPCX Enterprise R9) |
 |             |  <https://www.linkedin.com/in/arakitomohiko/>|
