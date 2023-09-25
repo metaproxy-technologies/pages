@@ -9,7 +9,7 @@ I have picked up (not all) repositories of finalists of ETHGlobal.
 
 ## 2023 ETHGlobal New York
 
-### FRAMED!
+### FRAMED
 
 FRAMED: A fully onchain & trustless hidden information game (Mafia) built with fhEVM
 
@@ -20,7 +20,7 @@ FRAMED: A fully onchain & trustless hidden information game (Mafia) built with f
   - Privvy <https://www.privy.io/>
   - Homomorphic Encryption
 
-### F.A.S.T.
+### F.A.S.T
 
 F.A.S.T. is the fastest way to use the blockchain to interact between 2 users. Take a picture of youself to sign up, and then snap a picture with someone else, to then interact with their address seamlessly.
 
@@ -94,7 +94,7 @@ Satellite Secured Access Recovery - A MetaMask Guardian management system using 
   - Metamask Snaps <https://metamask.io/snaps/>
   - Crypto-satellites <https://www.cryptosat.io/>
 
-### A.S.R.
+### A.S.R
 
 You're the owner of a smart contract but you lost the key. You're screwed…. or are you? Anti Social Recovery is a design pattern that enables users to recover ownership of their smart contract after losing their signing keys.
 
@@ -156,104 +156,25 @@ ZK Microphone: Trusted audio in the age of deepfakes 🔒🎙 Generative AI is a
 - Repository   <https://github.com/Miyamura80/ZKMicrophone>
 - Technologies
   - Raspberry Pi
-  - 
+  - Noir <https://noir-lang.org/>
+  - IPFS
 
 ### GLSwaps
 
-xxx
+Users now have access to spot and perpetual markets from the Uniswap app (app.uniswap.org) using the GLS browser extension routing through GMX as well. From Uniswap, users can access on-chain perpetual markets. Injecting the smart contracts for derivatives by adding a leverage button and slider. For degens.
 
-- Project page <>
-- Repository   <>
+- Project page <https://ethglobal.com/showcase/glswaps-grandma-leveraged-swaps-gzit8>
+- Repository   <https://github.com/jaimindp/UniPerp>
 - Technologies
-  - xxx
+  - A browser extension
+  - GMX
+  - Uniswap
+  - dydx
 
 ### TwitterCampaign
 
-xxx
+Twitter Campaigns is an A.I.-enabled on-chain DAO-tool aimed at crypto-familiar users where anyone can create, and participate in on-chain Twitter marketing campaigns.
 
-- Project page <>
-- Repository   <>
+- Project page <https://ethglobal.com/showcase/twittercampaign-wv9we>
+- Repository   <https://github.com/myounatan/twitter-campaign>
 - Technologies
-  - xxx
-
-### TyphoonCashX
-
-xxx
-
-- Project page <>
-- Repository   <>
-- Technologies
-  - xxx
-
-### Kinetex Light Clients
-
-xxx
-
-- Project page <>
-- Repository   <>
-- Technologies
-  - xxx
-
-### Harpos
-
-xxx
-
-- Project page <>
-- Repository   <>
-- Technologies
-  - xxx
-
-### Stake Garden
-
-xxx
-
-- Project page <>
-- Repository   <>
-- Technologies
-  - xxx
-
-### Cypher Deposit
-
-xxx
-
-- Project page <>
-- Repository   <>
-- Technologies
-  - xxx
-
-
-### Bob the Solver
-
-xxx
-
-- Project page <>
-- Repository   <>
-- Technologies
-  - xxx
-
-### VoiceSense
-
-xxx
-
-- Project page <>
-- Repository   <>
-- Technologies
-  - xxx
-
-### Community-bound
-
-xxx
-
-- Project page <>
-- Repository   <>
-- Technologies
-  - xxx
-
-### On-chain messaging aggregator
-
-xxx
-
-- Project page <>
-- Repository   <>
-- Technologies
-  - xxx
