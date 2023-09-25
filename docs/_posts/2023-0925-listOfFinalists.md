@@ -1,5 +1,5 @@
 ---
-title: "List of finalists in ETHGlobal <unofficial>"
+title: "List of finalists in ETHGlobal - unofficial"
 date: 2023-09-25
 classes: wide
 ---
