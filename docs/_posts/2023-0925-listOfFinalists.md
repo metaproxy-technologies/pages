@@ -150,12 +150,13 @@ X-Safe streamlines Gnosis Safe multi-sigs for cross-chain use. Sign once, and th
 
 ### ZK Microphone
 
-xxx
+ZK Microphone: Trusted audio in the age of deepfakes 🔒🎙 Generative AI is a threat to society. It enables disinformation, manipulation, and political subversion. We've built the world's first attested microphone and used ZK-SNARKs to protect authenticity and privacy.
 
-- Project page <>
-- Repository   <>
+- Project page <https://ethglobal.com/showcase/zk-microphone-8161v>
+- Repository   <https://github.com/Miyamura80/ZKMicrophone>
 - Technologies
-  - xxx
+  - Raspberry Pi
+  - 
 
 ### GLSwaps
 
