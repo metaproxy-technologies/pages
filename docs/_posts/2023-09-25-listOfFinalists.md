@@ -14,6 +14,8 @@ I have picked up (not all) repositories of finalists of ETHGlobal.
 
 ## 2023 ETHGlobal New York
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We are proud to announce:<br>The 13 ETHGlobal New York 🗽 finalists! <br><br>🖼 FRAMED!<br>🤑 F.A.S.T.<br>🔍 ZeroTrustBounty<br>🤔 Doom Arena<br>🗺 AirTracker <br>🔗 SafeCreate2<br>🤖 ConsciousNFT<br>🛸 Space Guardians<br>👁 A.S.R.<br>🥷 MEVictim Rebate<br>📈 RealReturn<br>💰 Abstract Wallet<br>🔒 XSafe<br><br>👇/🧵</p>&mdash; ETHGlobal (@ETHGlobal) <a href="https://twitter.com/ETHGlobal/status/1706049363464569232?ref_src=twsrc%5Etfw">September 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### FRAMED
 
 FRAMED: A fully onchain & trustless hidden information game (Mafia) built with fhEVM
@@ -306,16 +308,137 @@ Aggregate all web3 messaging app into S3nd! 🌐 Your one-stop hub for all Web3 
 
 ## 2023 ETHGlobal Waterloo
 
+### AquaNet
+
+A social network designed for AI-Driven NFTs to interact with each other and develop unique personalities.
+
+- Project page <https://ethglobal.com/showcase/aquanet-dzz2c>
+- Repository   <https://github.com/AquaNet-ETH-Waterloo-2023/web>
+- Technologies
+  - 
+
 ### xxx
 
-xxx
+xx
 
 - Project page <>
 - Repository   <>
 - Technologies
 
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">🎨 Finally got around to adding all my <a href="https://twitter.com/procreateapp">@procreateapp</a> creations with time lapse videos <a href="https://t.co/1nNbkefC3L">https://t.co/1nNbkefC3L</a> <a href="https://t.co/gcNLJoJ0Gn">pic.twitter.com/gcNLJoJ0Gn</a></p>&mdash; Michael Rose (@mmistakes) <a href="https://twitter.com/mmistakes/status/662678050795094016">November 6, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+### xxx
 
-This post tests Twitter Embeds.
+xx
+
+- Project page <>
+- Repository   <>
+- Technologies
+
+
+### xxx
+
+xx
+
+- Project page <>
+- Repository   <>
+- Technologies
+
+
+### xxx
+
+xx
+
+- Project page <>
+- Repository   <>
+- Technologies
+
+
+### xxx
+
+xx
+
+- Project page <>
+- Repository   <>
+- Technologies
+
+
+### xxx
+
+xx
+
+- Project page <>
+- Repository   <>
+- Technologies
+
+
+### xxx
+
+xx
+
+- Project page <>
+- Repository   <>
+- Technologies
+
+
+### xxx
+
+xx
+
+- Project page <>
+- Repository   <>
+- Technologies
+
+
+### xxx
+
+xx
+
+- Project page <>
+- Repository   <>
+- Technologies
+
+
+### xxx
+
+xx
+
+- Project page <>
+- Repository   <>
+- Technologies
+
+
+### xxx
+
+xx
+
+- Project page <>
+- Repository   <>
+- Technologies
+
+
+### xxx
+
+xx
+
+- Project page <>
+- Repository   <>
+- Technologies
+
+
+### xxx
+
+xx
+
+- Project page <>
+- Repository   <>
+- Technologies
+
+
+### xxx
+
+xx
+
+- Project page <>
+- Repository   <>
+- Technologies
+
