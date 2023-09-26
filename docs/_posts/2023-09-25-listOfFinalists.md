@@ -1,16 +1,12 @@
 ---
 title: "List of finalists in ETHGlobal, unofficial"
 date: 2023-09-25
-classes: wide
 toc: true
 toc_label: "Table of Contents"
 ---
 
 Best of bests in the scene has power to stimulate yourself.
 I have picked up (not all) repositories of finalists of ETHGlobal.
-
-- TOC
-{:toc}
 
 ## 2023 ETHGlobal New York
 
