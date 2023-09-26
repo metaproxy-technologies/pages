@@ -7,7 +7,7 @@ classes: wide
 Best of bests in the scene has power to stimulate yourself.
 I have picked up (not all) repositories of finalists of ETHGlobal.
 
-* TOC
+- TOC
 {:toc}
 
 ## 2023 ETHGlobal New York
