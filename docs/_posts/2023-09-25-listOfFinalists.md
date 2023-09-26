@@ -23,7 +23,6 @@ FRAMED: A fully onchain & trustless hidden information game (Mafia) built with f
   - Privvy <https://www.privy.io/>
   - Homomorphic Encryption
 
-
 ### F.A.S.T
 
 F.A.S.T. is the fastest way to use the blockchain to interact between 2 users. Take a picture of youself to sign up, and then snap a picture with someone else, to then interact with their address seamlessly.
@@ -182,13 +181,13 @@ Twitter Campaigns is an A.I.-enabled on-chain DAO-tool aimed at crypto-familiar 
 - Project page <https://ethglobal.com/showcase/twittercampaign-wv9we>
 - Repository   <https://github.com/myounatan/twitter-campaign>
 - Technologies
-  - Safe AuthKit 
+  - Safe AuthKit
   - Biconomy's Transak SDK
   - TheGraph
 
 ### TyphoonCashX
 
-TyphoonCashX is a protocol enabling bridging any ERC20 native tokens across any EVM compatible chain in an anonymous fashion. 
+TyphoonCashX is a protocol enabling bridging any ERC20 native tokens across any EVM compatible chain in an anonymous fashion.
 
 - Project page <https://ethglobal.com/showcase/typhooncashx-p10yd>
 - Repository   <https://github.com/TyphoonCashX>
@@ -219,3 +218,86 @@ Leveraging Sismo and XMTP, Harpos is a social network centered on privacy and an
   - Sismo
   - XMTP
   - IPFS
+
+### Bubbles
+
+Bubbles is a voice chat app for onchain communities. Create token-gated rooms based on token ownership, POAP claims, group affiliations and more.
+
+- Project page <https://ethglobal.com/showcase/bubbles-avp6o>
+- Repository   <https://github.com/gskril/ethglobal-paris-hack>
+- Technologies
+  - Daily.co
+  - Airstack
+  - Sismo
+  - wagmi
+
+### Stake Garden
+
+StakeGarden is a Self Managed Liquid Staking Tokens Portfolio that allows you to diversify and mitigate the risk keeping you safe and in control.
+
+- Project page <https://ethglobal.com/showcase/stake-garden-7tj7j>
+- Repository   <https://github.com/StakeGarden/stakegarden>
+- Technologies
+  - Metamask SDK
+  - 1inch
+  - TheGraph
+
+### Cypher Deposit
+
+ Elevating financial privacy in crypto withdrawals. Securely withdraw funds via anonymous transfers & secure transactions, preserving anonymity.
+
+- Project page <https://ethglobal.com/showcase/cypher-deposit-cnhs5>
+- Repository   <https://github.com/Alice-s-Deposit>
+- Technologies
+  - HOPR <https://hoprnet.org/>
+  - zkBob
+  - IPFS
+
+
+### Bob the Solver
+
+Infrastructure for Intent-based transactions for better UX of wallets and dapps.
+The project has successfully developed a 'solver' that accepts the user's intent, automatically formulates the appropriate transactions, and executes them on behalf of the user.
+
+- Project page <https://ethglobal.com/showcase/bob-the-solver-yxtgp>
+- Repository   <https://github.com/nlok5923/solver>
+- Technologies
+  - Account Abstraction (AA) Wallet
+  - a machine learning (ML) model that classifies the user's intent
+
+### VoiceSense
+
+VoiceSence leverages the power of AI voice recognition to make web3 more inclusive.
+
+- Project page <https://ethglobal.com/showcase/voicesense-yfzpq>
+- Repository (link is not found)
+- Technologies
+  - Cartesi 
+  - Hugging Face AI model
+
+### Community-bound
+
+Community Bound Tokens (CBTs) are ERC-20 tokens that can only be transferred among members of a community, which can be used for reputation, community merit based governance, opt-in social credit score, coordination games or engagement scores.
+
+- Project page <https://ethglobal.com/showcase/community-bound-y73ys>
+- Repository   <https://github.com/TroopFinance/community-bound>
+- Technologies
+  - Safe (forked)
+  - Push protocol
+
+### On-chain messaging aggregator
+
+Aggregate all web3 messaging app into S3nd! 🌐 Your one-stop hub for all Web3 messaging apps. Easy single sign-on, Human verification with Worldcoin ✔️ , & native on-chain messaging support. No bots, only genuine convos!
+
+- Project page <https://ethglobal.com/showcase/on-chain-messaging-aggregator-3eshd>
+- Repository   <https://github.com/RafalZgoda/Onchain-Messaging-Aggregator>
+- Technologies
+  - XMTP
+  - Worldcoin
+  - Airstack
+  - Sismo
+  - Message protocols aggregated
+    - Native on-chain messaging
+    - Debank Hi
+    - Blockscan
+    - Push protocol
