@@ -335,80 +335,86 @@ Bundle curations with EIP 6551. Auction marketplace for EIP 6551 supported token
 - Project page <https://ethglobal.com/showcase/fukuro-3cdwv>
 - Repository   <https://github.com/banky/fukuro>
 - Technologies
+  - custom implementation of EIP 6551
   - Pinata
   - wagmi
-  - custom implementation of EIP 6551
+  - The Graph
 
 ### Roll a Mate
 
-Send money on Ethereum Mainnet with transfers costing from zero to 4 cents
+Send money on Ethereum Mainnet with transfers costing from zero to 4 cents.
+By manipulating the mempool to validate and broadcast low gas transactions, which are then included into sidechain orderbook rollups (without user interaction with it) and then likely to be dropped (at zero cost), Ethereum Mainnet users can send and receive payments at zero to 4 cents costs, even faster than the Mainnet transaction completion time.
 
 - Project page <https://ethglobal.com/showcase/roll-a-mate-ob574>
 - Repository   <https://github.com/ArturVargas/Mate-contracts>
 - Technologies
-
+  - The Graph
+  - UMA
+  - Telegram
+  - Lit protocol
+  - Airstack
+  - XMTP
 
 ### Piggybank 6551 NFT
-
-xx
 
 - Project page <https://ethglobal.com/showcase/piggybank-6551-nft-e2ai5>
 - Repository   <https://github.com/nnnnicholas/6551piggybank>
 - Technologies
-
+  - in progress
 
 ### Smile DAO
-
-xx
 
 - Project page <https://ethglobal.com/showcase/smile-dao-xogfo>
 - Repository   <https://github.com/smiledao/frontend>
 - Technologies
-
+  - in progress
 
 ### a(i)udit
-
-xx
 
 - Project page <https://ethglobal.com/showcase/a-i-udit-ja32i>
 - Repository   <https://github.com/leeederek/aiudit/>
 - Technologies
-
+  - in progress
 
 ### Tokenbound Titans
-
-xx
 
 - Project page <https://ethglobal.com/showcase/tokenbound-titans-5w6oq>
 - Repository   <https://github.com/hamzah2304/tokenbound-titans>
 - Technologies
-
+  - Risc Zero
+  - in progress
 
 ### zBay
 
-xx
+zBay revolutionizes online marketplaces by decentralizing eBay, empowering merchants and buyers. It enables seamless data and reputation import from eBay, secure escrow, XMTP chat, and transparent dispute resolution using the Uma optimistic oracle
 
 - Project page <https://ethglobal.com/showcase/zbay-r0724>
 - Repository   <https://github.com/wannabehero/ethglobal-waterloo>
 - Technologies
-
+  - Sismo Connect
+  - Gitcoin Passport score
+  - eBay related
+    - ebay profile importer (via puppeteer)
+    - Apify
+  - IPFS
+  - XMTP
+  - Airstack
+  - UMA
+  - TheGraph
 
 ### Token Rescue Buddy
-
-xx
 
 - Project page <https://ethglobal.com/showcase/token-rescue-buddy-bd0sd>
 - Repository   <https://github.com/xavierdmello/TokenRescueBuddy>
 - Technologies
-
+  - in progress
 
 ### Copix
-
-xx
 
 - Project page <https://ethglobal.com/showcase/copix-28x5i>
 - Repository   <https://github.com/jaxonL/copix>
 - Technologies
+  - in progress
 
 ## 2023 ETHGlobal Lisbon
 
@@ -416,80 +422,114 @@ xx
 
 ### Credential Corgi
 
-xx
+Credential Corgi enables creation of certification standards, issuance of ZKP-compatible certificates, and a request-proof exchange between 3rd parties and credential holders
 
-- Project page <>
-- Repository   <>
+- Project page <https://ethglobal.com/showcase/credential-corgi-a7a0r>
+- Repository   <https://github.com/tkeith/credential-corgi>
 - Technologies
-
+  - SnarkyJS, without MINA
+  - GPT-4
+  - Wagmi
+  - RainbowKit
 
 ### Dookies
 
-xx
-
-- Project page <>
-- Repository   <>
+- Project page <https://ethglobal.com/showcase/dookies-0g13u>
+- Repository   <https://github.com/D00ki3s>
 - Technologies
-
+  - in progress
 
 ### buddy
 
-xx
+A Tinder-style app on Lens for developers to find hackathon partners, using Sismo Connect to prove knowledge and skillsof crypto
 
-- Project page <>
-- Repository   <>
+- Project page <https://ethglobal.com/showcase/buddy-t7gbs>
+- Repository   <https://github.com/catmcgee/buddy>
 - Technologies
-
+  - Lens
+  - Sismo connect
 
 ### LocalPro
 
-xx
-
-- Project page <>
-- Repository   <>
+- Project page <https://ethglobal.com/showcase/localpro-xckra>
+- Repository   <https://github.com/wannabehero/ethglobal-lisbon>
 - Technologies
+  - in progress
 
+### CryptoBureau
+
+CryptoBureau uses the power of Zero Knowledge to build credit score which can allow under-collateralized lending.
+
+- Project page <https://ethglobal.com/showcase/cryptobureau-u1389>
+- Repository   <https://github.com/EthGlobalLisbon2023/local-pro>
+- Technologies
+  - Sismo
+  - zokrates
+  - TrueLayer API
+  - PolygonID
+  - WorldID
 
 ### Pinky Protocol
 
-xx
-
-- Project page <>
-- Repository   <>
+- Project page <https://ethglobal.com/showcase/pinky-protocol-vsos2>
+- Repository   <https://github.com/pinky-io/pinky-protocol>
 - Technologies
-
+  - in progress
 
 ### Web3-gpt4
 
-xx
-
-- Project page <>
-- Repository   <>
+- Project page <https://ethglobal.com/showcase/web3-gpt4-jkaja>
+- Repository   <https://github.com/Markeljan/web3-gpt4>
 - Technologies
-
+  - in progress
 
 ### Donation Station
 
-xx
-
-- Project page <>
-- Repository   <>
+- Project page <https://ethglobal.com/showcase/donation-station-g09ok>
+- Repository   <https://github.com/lennardevertz/ethLisbon2023>
 - Technologies
-
+  - in progress
 
 ### ChainGPT
 
-xx
+Decentralised & verifiable chat AI, backed by the blockchain: a port of Alpaca LLM model leveraging the Cartesi app-specific rollups
 
-- Project page <>
-- Repository   <>
+- Project page <https://ethglobal.com/showcase/chaingpt-and-accountability-for-ai-agents-doquk>
+- Repository   <https://github.com/dhood/rollups-examples>
 - Technologies
-
+  - Porting of Alpaca.cpp into RISC-V
+    - Stanford's Alpaca Large Language Model (LLM)
+  - Cartesi
 
 ### op-kompressor
 
-xx
+Decompress calldata at runtime to save L1 gas while transacting on L2s like Optimism where gas is an expensive resource.
 
-- Project page <>
-- Repository   <>
+- Project page <https://ethglobal.com/showcase/op-kompressor-1uboo>
+- Repository   <https://github.com/clabby/op-kompressor>
 - Technologies
+  - in progress
+
+## 2023 ETHGlobal Tokyo
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We are proud to announce⎯the 11 ETHGlobal Tokyo finalists! 🇯🇵<br><br>🤩 POMPoarding<br>🎙️ ZKVoiceKey<br>🔥 BAILOUT<br>➗ AokiApp NFT<br>🐙 Octoplorer<br>🌸 Myna<br>🪧 <a href="https://t.co/L5yS0lSEyv">https://t.co/L5yS0lSEyv</a><br>💚 AbswapX<br>🦝 Tanuki<br>🤫 YORU<br>🎮 SuperPlay<br><br>👇 / 🧵</p>&mdash; ETHGlobal (@ETHGlobal) <a href="https://twitter.com/ETHGlobal/status/1647524426450083840?ref_src=twsrc%5Etfw">April 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## 2022 ETHIndia
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We&#39;re proud to announce⎯the 12 ETHIndia 🇮🇳 2022 finalists! <br><br>⛑ Web3Rescue<br>🔗 ChainPe<br>🚨 Block Alerts<br>🎳 Bowled<br>💳 DePay<br>🔎 Persona bot-wallet detection<br>⭐️ Sadaiv CI<br>🤝 Proof Of Trust<br>🔒 ETHGuard<br>🔋 ChargeSwap<br>🎉 TRIKL<br>🦺 SafeGuard<br><br>👇/🧵</p>&mdash; ETHGlobal (@ETHGlobal) <a href="https://twitter.com/ETHGlobal/status/1603833092346609700?ref_src=twsrc%5Etfw">December 16, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## 2022 ETHSanFrancisco
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We&#39;re excited to announce⎯ the 13 ETHSanFrancisco 2022 finalists!<br><br>🌎 mundo<br>⚡️ FuelScape<br>📟 BB3 - BEEP3R<br>🏛 DAOCensus<br>🍉 melo vault<br>🔑 Org3<br>💎 UNIC<br>9️⃣ ZK Section 9<br>🛋 Decentral Couch<br>🌐 Cambria<br>🏃‍♂️ Swallow <br>👻 Peekaboo<br>⛓ Snapchain<br><br>👇/🧵</p>&mdash; ETHGlobal (@ETHGlobal) <a href="https://twitter.com/ETHGlobal/status/1589431653599961089?ref_src=twsrc%5Etfw">November 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## 2022 ETHBogotá
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We&#39;re proud to announce...<br><br>The 12 ETHBogota finalists!<br>👇/🧵<br><br>🧑‍🤝‍🧑 frens<br>🔎 Blobscan Explorer<br>🤑 Bet Streams 🤑<br>👍👎 ETHernal Reviews<br>🍊 PULP<br>🌱🤑 Superseed<br>🌐 Coedia Network<br>🪶 Zipline <br>🧂Anonymous Vickrey Auctions On Chain<br>🦨 diZKreet <br>🎧 ClubSpace<br>🧨 txn. xyz</p>&mdash; ETHGlobal (@ETHGlobal) <a href="https://twitter.com/ETHGlobal/status/1579249265557192704?ref_src=twsrc%5Etfw">October 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## 2022 ETHMexico
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We are proud to announce ─ <br>the 12 <a href="https://twitter.com/hashtag/ETHMexico?src=hash&amp;ref_src=twsrc%5Etfw">#ETHMexico</a> finalists! 🇲🇽<br><br>🌌 Datamorpho<br>🔑Keyppi<br>♦️ Kiwik<br>🛍 Sell Out<br>🏆 Emergence<br>📚 Staxx<br>🏘 BlockCommunity<br>🤑 ETHPoint<br>🏃‍♀️ Spiritus<br>🚩 Ethereum Uncensored<br>👨‍👩‍👧‍👦 Reunited<br>💨 Woosh</p>&mdash; ETHGlobal (@ETHGlobal) <a href="https://twitter.com/ETHGlobal/status/1561502158767415298?ref_src=twsrc%5Etfw">August 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## 2022 ETHAmsterdam
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We couldn&#39;t be more excited to announce our 13 <a href="https://twitter.com/hashtag/ETHAmsterdam?src=hash&amp;ref_src=twsrc%5Etfw">#ETHAmsterdam</a> Finalists!<br><br>📼 Retr0x<br>💡Nimi.eth<br>⬢ Hexagons Protocol<br>📜 Democrazy<br>🪄 FLOAN<br>🍤 Tempra<br>🤝 pfpnative<br>🚀 Daora<br>📈 Yieldgate<br>🧱 Detris<br>🚴‍♀️ Activitydao<br>👀 Creatorsight<br>✊ Collective Action<br><br>Thread🧵👇</p>&mdash; ETHGlobal (@ETHGlobal) <a href="https://twitter.com/ETHGlobal/status/1518234859323408384?ref_src=twsrc%5Etfw">April 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
