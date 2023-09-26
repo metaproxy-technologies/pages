@@ -2,6 +2,8 @@
 title: "List of finalists in ETHGlobal, unofficial"
 date: 2023-09-25
 classes: wide
+toc: true
+toc_label: "Table of Contents"
 ---
 
 Best of bests in the scene has power to stimulate yourself.
@@ -301,3 +303,14 @@ Aggregate all web3 messaging app into S3nd! 🌐 Your one-stop hub for all Web3 
     - Debank Hi
     - Blockscan
     - Push protocol
+
+## 2023 ETHGlobal Waterloo
+
+### xxx
+
+xxx
+
+- Project page <>
+- Repository   <>
+- Technologies
+  - 
