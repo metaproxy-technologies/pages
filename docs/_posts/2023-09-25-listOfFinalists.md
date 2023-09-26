@@ -7,6 +7,8 @@ classes: wide
 Best of bests in the scene has power to stimulate yourself.
 I have picked up (not all) repositories of finalists of ETHGlobal.
 
+{:toc}
+
 ## 2023 ETHGlobal New York
 
 ### FRAMED
@@ -179,3 +181,40 @@ Twitter Campaigns is an A.I.-enabled on-chain DAO-tool aimed at crypto-familiar 
 - Project page <https://ethglobal.com/showcase/twittercampaign-wv9we>
 - Repository   <https://github.com/myounatan/twitter-campaign>
 - Technologies
+  - Safe AuthKit 
+  - Biconomy's Transak SDK
+  - TheGraph
+
+### TyphoonCashX
+
+TyphoonCashX is a protocol enabling bridging any ERC20 native tokens across any EVM compatible chain in an anonymous fashion. 
+
+- Project page <https://ethglobal.com/showcase/typhooncashx-p10yd>
+- Repository   <https://github.com/TyphoonCashX>
+- Technologies
+  - Sismo
+  - Hyperlane
+
+### Kinetex Light Clients
+
+Kinetex Light Clients for Cross-Chain Resolving (based on ChainLink CCIP, Hyperline, Axelar, ZetaChain & Hashi)
+
+- Project page <https://ethglobal.com/showcase/kinetex-light-clients-mmr-uvzr1>
+- Repository   <https://github.com/KinetexNetwork/ethglobal-paris>
+- Technologies
+  - Merkle Mountain Range structure LightClient
+    - was inspired by Axiom
+  - Hashi adapters
+  - Kinetex Protocol
+  - 1inch Fusion
+
+### Harpos
+
+Leveraging Sismo and XMTP, Harpos is a social network centered on privacy and anonymity where users can choose multiple criteria to select who they want to connect with.
+
+- Project page <https://ethglobal.com/showcase/harpos-0wpcc>
+- Repository   <https://github.com/ahippoly/EthParisHackathon>
+- Technologies
+  - Sismo
+  - XMTP
+  - IPFS
