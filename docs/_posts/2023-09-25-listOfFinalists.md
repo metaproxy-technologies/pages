@@ -151,6 +151,8 @@ X-Safe streamlines Gnosis Safe multi-sigs for cross-chain use. Sign once, and th
 
 ## 2023 ETHGlobal Paris
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🥁 The 13 ETHGlobal Paris 🇫🇷 finalists are:<br><br>🎙 ZK Microphone<br>📈 GLSwaps<br>🐦 TwitterCampaign<br>💥 TyphoonCashX<br>🪄 Kinetex Light Clients<br>🤫 Harpos<br>🫧 Bubbles<br>🌳 Stake Garden<br>🔐 Cypher Deposit<br>⚡️ Bob the Solver<br>🗣 VoiceSense<br>🛗 Community-bound<br>💬 On-chain messaging aggregator<br><br>👇/🧵</p>&mdash; ETHGlobal (@ETHGlobal) <a href="https://twitter.com/ETHGlobal/status/1683156559847739394?ref_src=twsrc%5Etfw">July 23, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### ZK Microphone
 
 ZK Microphone: Trusted audio in the age of deepfakes 🔒🎙 Generative AI is a threat to society. It enables disinformation, manipulation, and political subversion. We've built the world's first attested microphone and used ZK-SNARKs to protect authenticity and privacy.
@@ -304,6 +306,8 @@ Aggregate all web3 messaging app into S3nd! 🌐 Your one-stop hub for all Web3 
 
 ## 2023 ETHGlobal Waterloo
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🥁 We&#39;re proud to announce... <br><br>The 11 ETHGlobal Waterloo 2023 🍁 finalists! <br><br>💦 AquaNet<br>🌌 Smarter Contract<br>🧧 Fukuro<br>🧉 Roll a Mate<br>🐷 Piggybank 6551 NFT<br>😎 Smile DAO<br>🔐 a(i)udit<br>🤖 Tokenbound Titans<br>🛒 zBay<br>⛑ Token Rescue Buddy<br>🎨 Copix<br><br>👇/🧵</p>&mdash; ETHGlobal (@ETHGlobal) <a href="https://twitter.com/ETHGlobal/status/1673069276805099520?ref_src=twsrc%5Etfw">June 25, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### AquaNet
 
 A social network designed for AI-Driven NFTs to interact with each other and develop unique personalities.
@@ -311,9 +315,106 @@ A social network designed for AI-Driven NFTs to interact with each other and dev
 - Project page <https://ethglobal.com/showcase/aquanet-dzz2c>
 - Repository   <https://github.com/AquaNet-ETH-Waterloo-2023/web>
 - Technologies
-  - 
+  - Non-fungible Tokenbound Accounts (ERC 6551) 
+  - OpenAI’s GPT-3.5
+  - Airstack <https://docs.tokenbound.org/>
 
-### xxx
+### Smarter Contract
+
+Smarter Contract, powered by Hyperlane, optimizes smart contract performance by intelligently delegating functions to the most cost-efficient blockchain in real-time. It's a leap towards efficient, accessible, and cost-effective blockchain interaction.
+
+- Project page <https://ethglobal.com/showcase/smarter-contract-kw41h>
+- Repository   <https://github.com/maancham/smarter-contracts>
+- Technologies
+  - Hyperlane
+
+### Fukuro
+
+Bundle curations with EIP 6551. Auction marketplace for EIP 6551 supported tokens.
+
+- Project page <https://ethglobal.com/showcase/fukuro-3cdwv>
+- Repository   <https://github.com/banky/fukuro>
+- Technologies
+  - Pinata
+  - wagmi
+  - custom implementation of EIP 6551
+
+### Roll a Mate
+
+Send money on Ethereum Mainnet with transfers costing from zero to 4 cents
+
+- Project page <https://ethglobal.com/showcase/roll-a-mate-ob574>
+- Repository   <https://github.com/ArturVargas/Mate-contracts>
+- Technologies
+
+
+### Piggybank 6551 NFT
+
+xx
+
+- Project page <https://ethglobal.com/showcase/piggybank-6551-nft-e2ai5>
+- Repository   <https://github.com/nnnnicholas/6551piggybank>
+- Technologies
+
+
+### Smile DAO
+
+xx
+
+- Project page <https://ethglobal.com/showcase/smile-dao-xogfo>
+- Repository   <https://github.com/smiledao/frontend>
+- Technologies
+
+
+### a(i)udit
+
+xx
+
+- Project page <https://ethglobal.com/showcase/a-i-udit-ja32i>
+- Repository   <https://github.com/leeederek/aiudit/>
+- Technologies
+
+
+### Tokenbound Titans
+
+xx
+
+- Project page <https://ethglobal.com/showcase/tokenbound-titans-5w6oq>
+- Repository   <https://github.com/hamzah2304/tokenbound-titans>
+- Technologies
+
+
+### zBay
+
+xx
+
+- Project page <https://ethglobal.com/showcase/zbay-r0724>
+- Repository   <https://github.com/wannabehero/ethglobal-waterloo>
+- Technologies
+
+
+### Token Rescue Buddy
+
+xx
+
+- Project page <https://ethglobal.com/showcase/token-rescue-buddy-bd0sd>
+- Repository   <https://github.com/xavierdmello/TokenRescueBuddy>
+- Technologies
+
+
+### Copix
+
+xx
+
+- Project page <https://ethglobal.com/showcase/copix-28x5i>
+- Repository   <https://github.com/jaxonL/copix>
+- Technologies
+
+## 2023 ETHGlobal Lisbon
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We&#39;re proud to announce: our 10 ETHGlobal Lisbon Finalists! 🇵🇹<br><br>🐶 Credential Corgi<br>😎 Dookies<br>👬 buddy<br>💻 LocalPro<br>🪙 CryptoBureau<br>🤝 Pinky Protocol<br>🤖 Web3-gpt4<br>💸 Donation Station<br>🤯 ChainGPT<br>🗜 op-kompressor <br><br>👇 / 🧵</p>&mdash; ETHGlobal (@ETHGlobal) <a href="https://twitter.com/ETHGlobal/status/1657794093802483714?ref_src=twsrc%5Etfw">May 14, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### Credential Corgi
 
 xx
 
@@ -322,7 +423,7 @@ xx
 - Technologies
 
 
-### xxx
+### Dookies
 
 xx
 
@@ -331,7 +432,7 @@ xx
 - Technologies
 
 
-### xxx
+### buddy
 
 xx
 
@@ -340,7 +441,7 @@ xx
 - Technologies
 
 
-### xxx
+### LocalPro
 
 xx
 
@@ -349,7 +450,7 @@ xx
 - Technologies
 
 
-### xxx
+### Pinky Protocol
 
 xx
 
@@ -358,7 +459,7 @@ xx
 - Technologies
 
 
-### xxx
+### Web3-gpt4
 
 xx
 
@@ -367,7 +468,7 @@ xx
 - Technologies
 
 
-### xxx
+### Donation Station
 
 xx
 
@@ -376,7 +477,7 @@ xx
 - Technologies
 
 
-### xxx
+### ChainGPT
 
 xx
 
@@ -385,56 +486,10 @@ xx
 - Technologies
 
 
-### xxx
+### op-kompressor
 
 xx
 
 - Project page <>
 - Repository   <>
 - Technologies
-
-
-### xxx
-
-xx
-
-- Project page <>
-- Repository   <>
-- Technologies
-
-
-### xxx
-
-xx
-
-- Project page <>
-- Repository   <>
-- Technologies
-
-
-### xxx
-
-xx
-
-- Project page <>
-- Repository   <>
-- Technologies
-
-
-### xxx
-
-xx
-
-- Project page <>
-- Repository   <>
-- Technologies
-
-
-### xxx
-
-xx
-
-- Project page <>
-- Repository   <>
-- Technologies
-
