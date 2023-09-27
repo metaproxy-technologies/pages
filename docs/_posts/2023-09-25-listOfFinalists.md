@@ -533,3 +533,73 @@ Decompress calldata at runtime to save L1 gas while transacting on L2s like Opti
 ## 2022 ETHAmsterdam
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We couldn&#39;t be more excited to announce our 13 <a href="https://twitter.com/hashtag/ETHAmsterdam?src=hash&amp;ref_src=twsrc%5Etfw">#ETHAmsterdam</a> Finalists!<br><br>📼 Retr0x<br>💡Nimi.eth<br>⬢ Hexagons Protocol<br>📜 Democrazy<br>🪄 FLOAN<br>🍤 Tempra<br>🤝 pfpnative<br>🚀 Daora<br>📈 Yieldgate<br>🧱 Detris<br>🚴‍♀️ Activitydao<br>👀 Creatorsight<br>✊ Collective Action<br><br>Thread🧵👇</p>&mdash; ETHGlobal (@ETHGlobal) <a href="https://twitter.com/ETHGlobal/status/1518234859323408384?ref_src=twsrc%5Etfw">April 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## 2020 ETHLondonUK
+
+<https://ethlondon.devpost.com/project-gallery>
+
+## 2019 ETHWaterloo
+
+<https://ethwaterloo2.devpost.com/project-gallery>
+
+## 2019 ETHBoston
+
+<https://ethboston.devpost.com/project-gallery>
+
+## 2019 ETHNewYork
+
+<https://ethnewyork.devpost.com/project-gallery>
+
+## 2019 ETHCapeTown
+
+<https://ethcapetown.devpost.com/project-gallery>
+
+## 2019 ETHParis
+
+<https://ethparis.devpost.com/project-gallery>
+
+## 2018 ETHSingapore
+
+44 submissions
+<https://ethsingapore.devpost.com/project-gallery>
+
+## 2018 ETHSanFrancisco
+
+121 submissions
+<https://ethsanfrancisco.devpost.com/submissions>
+
+## 2018 ETHBerlin
+
+### winners
+
+<https://medium.com/ethberlin/ethberlin-meet-the-winners-50-70-word-reviews-featuring-ecf-ethprize-gitcoin-and-more-5e98d260b530>
+
+### submissions
+
+65 submissions
+<https://ethberlin.devpost.com/submissions>
+
+## 2018 ETHIndia
+
+### top 7
+
+<https://ethindia.devfolio.co/projects?prizes=961223f644744094b25e889e788f187f&show_winners=false>
+
+### 53 submissions
+
+<https://ethindia.devfolio.co/submissions>
+
+## 2018 ETHBuenosAires
+
+34 submissions
+<https://ethbuenosaires.devpost.com/project-gallery>
+
+## 2018 ETHDenver
+
+131 submissions
+<https://ethdenver.devpost.com/project-gallery>
+
+## 2017 ETHWaterloo
+
+72 submissions here
+<https://ethwaterloo.devpost.com/project-gallery>
