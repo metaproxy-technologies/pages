@@ -37,23 +37,25 @@ That's why I have introduced what I did in this article.
 
 ### Procedure
 
-[Configure in GCP]
-1) Create service account
-2) Assign it as Service Account of CloudFunctions
-3) Refer cloudFunctions part
-									
-[Configure in Azure]
-1) Create user-assigned managed identity
-2) Set federated credentials to it
-	Federated credential scenario: OpenID Connect								
-	Issuer URL: https://accounts.google.com								
-	Subject identifier: Unique ID of the GCP service account								
-	Name: (Assign as you like)								
-	Audience: api://AzureADTokenExchange								
-3) Make storageAccount with hierarcy enabled (to be accessed as Azure Data Lake Gen2)									
-4) Assign Storage Data Contributer of storageAccount to user-assigned managed identity
+#### [Configure in GCP]
 
-[Place scripts into CloudFunctions]
+- 1) Create service account
+- 2) Assign it as Service Account of CloudFunctions
+- 3) Refer cloudFunctions part
+
+#### [Configure in Azure]
+
+- 1) Create user-assigned managed identity
+- 2) Set federated credentials to it
+	- Federated credential scenario: OpenID Connect								
+	- Issuer URL: https://accounts.google.com								
+	- Subject identifier: Unique ID of the GCP service account								
+	- Name: (Assign as you like)								
+	- Audience: api://AzureADTokenExchange								
+- 3) Make storageAccount with hierarcy enabled (to be accessed as Azure Data Lake Gen2)									
+- 4) Assign Storage Data Contributer of storageAccount to user-assigned managed identity
+
+#### [Place scripts into CloudFunctions]
 
 refer following
 
