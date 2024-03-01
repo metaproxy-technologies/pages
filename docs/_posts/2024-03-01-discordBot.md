@@ -9,6 +9,7 @@ I have made server for my family, and there shoud be some cute companions like k
 ## Setup
 
 - Grab OpenAI API key
+  - ![image](https://github.com/rtree/pages/assets/1018794/62b31f87-ee1c-4f70-a278-8505cd1a8e75)
 - Setup Discord developers site
   - Please make sure you have enabled message intent privilege
     - ![image](https://github.com/rtree/pages/assets/1018794/3ed07c2e-d08a-4959-aa4d-b2ecb4b3aa49)
