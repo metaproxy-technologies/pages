@@ -323,6 +323,6 @@ d_client.run(DISCORD_BOT_TOKEN)
 Run it in your local PC, no need for considerations on NAT etc..
 The problem is, currently I do not have where is best fit for running always, as this discord.py requires
 ```bash
-pip install discord.py requests python-dotenv asyncio
+pip install discord.py requests python-dotenv asyncio openai beautifulsoup4 lxml PyPDF2
 python main.py
 ```
