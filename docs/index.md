@@ -69,20 +69,24 @@ Please refer following:
 |             | Metaproxy technologies|
 | 設立         | 2020年                |
 | 代表         | 荒木　智彦              |
-|             |  情報処理安全確保支援士（登録番号018850）|
-|             |  基本情報技術者、応用情報技術者         |
-|             |  宅地建物取引士試験合格         |
-|             |  ビル経営管理主任        |
-|             |  小規模不動産特定共同事業　業務管理者講習　修了         |
-|             |  VMware Certified Professional (Desktop Virtualization) |
-|             |  Alcatel-Lucent Certified Field Expert (OmniPCX Enterprise R9) |
-|             |  ETHGlobal Sponser Prize  |
-|             |   WalletConnect Top 10  |
-|             |   XDC Foundation Token Gating  |
-|             |  <https://www.linkedin.com/in/arakitomohiko/>|
+|             |  〇情報処理関連資格  |
+|             |  - 情報処理安全確保支援士（登録番号018850）|
+|             |  - 基本情報技術者、応用情報技術者         |
+|             |  - VMware Certified Professional (Desktop Virtualization) |
+|             |  - Alcatel-Lucent Certified Field Expert (OmniPCX Enterprise R9) |
+|             |  〇暗号資産プログラミングコンテストにおける表彰  |
+|             |  - ETHGlobal Sponser Prize  |
+|             |  -- WalletConnect Top 10  |
+|             |  -- XDC Foundation Token Gating  |
+|             |  -- 他多数  |
+|             |  〇不動産領域の業務資格  |
+|             |  - 宅地建物取引士試験合格         |
+|             |  - ビル経営管理主任        |
+|             |  - 小規模不動産特定共同事業　業務管理者講習　修了         |
 | 参加団体      | 東京商工会議所会員     |
 | 　　　　      | Electronic Frontier Foundation |
 | 代表経歴      | 　　　              |
 | 　　　　      | 2006年　明治大学理工学部電気電子工学科卒　 |
 | 　　　　      | 2006-2020年　野村総合研究所（NRI）　 　　 |
 | 　　　　      | 2020年-　現職　 　　 |
+|             |  <https://www.linkedin.com/in/arakitomohiko/>|
