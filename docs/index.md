@@ -51,8 +51,9 @@ Please refer following:
 
 創業後の主な実績として以下があります。
 - 管理会計システム構築プロジェクトPM
-- 知育用スマホアプリ制作PM
+- 知育用スマホアプリ制作PdM
 - セキュリティを担保したリモートワーク環境構築
+- ベクトル最近傍検索を用いたRAG検索システム構築
 
 
 システム構築の要諦は組織作りと考えております。お客様皆様のビジネス目標を達成するための組織を整備し、そしてその組織の能力を向上させるために最適なシステムや人の動きを設計することが喜びです。
@@ -75,6 +76,13 @@ Please refer following:
 |             |  小規模不動産特定共同事業　業務管理者講習　修了         |
 |             |  VMware Certified Professional (Desktop Virtualization) |
 |             |  Alcatel-Lucent Certified Field Expert (OmniPCX Enterprise R9) |
+|             |  ETHGlobal Sponser Prize  |
+|             |   WalletConnect Top 10  |
+|             |   XDC Foundation Token Gating  |
 |             |  <https://www.linkedin.com/in/arakitomohiko/>|
 | 参加団体      | 東京商工会議所会員     |
 | 　　　　      | Electronic Frontier Foundation |
+| 代表経歴      | 　　　              |
+| 　　　　      | 2006年　明治大学理工学部電気電子工学科卒　 |
+| 　　　　      | 2006-2020年　野村総合研究所（NRI）　 　　 |
+| 　　　　      | 2020年-　現職　 　　 |
