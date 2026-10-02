@@ -16,7 +16,7 @@ Please feel free to contact us via DM on X for any job orders or problems you ma
 📞 お電話でのお問い合わせ / Call Us
 
 <a href="tel:+16176827774" style="display: inline-block; background: linear-gradient(135deg, #007bff, #0056b3); color: white; font-weight: bold; padding: 0.6em 1.2em; border-radius: 12px; text-decoration: none; box-shadow: 0 4px 15px rgba(0,123,255,0.4);">
-🇺🇸 From US: +1-617-682-7774
+🇺🇸 From US: +1-937-862-0730
 </a>
 　
 ### Achievements to date
